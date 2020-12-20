@@ -1,15 +1,19 @@
 # bachelor-theses
-Repository for available, active and closed topics for Bachelor theses in the context of the class “Seminar mit Bachelorarbeit”
+A repository for available, active and closed topics for Bachelor theses in the context of the class “Seminar mit Bachelorarbeit”. Supervisor - Sashko Ristov.
+
+As a result of several bachelor and master theses that I supervised, we have developed a prototype of the *xAFCL* enactment engine, which is able to run serverless workflows or function choreographies (*FCs*) across many widely-known cloud providers (AWS Lambda, IBM Cloud Functions, Google Cloud Functions, Alibaba Function Compute, Microsoft Azure Cloud Functions, etc). *xAFCL EE* integrates the component `FTjFaaS` for optional fault tolerant execution of FC functions (currently supported AWS Lambda and IBM Cloud Functions).
+
+*xAFCL EE* is the core part of the [AFCL Environment](https://github.com/sashkoristov/AFCLEnvironment), a platform to develop, deploy, and fault tolerant execution of FCs developed in our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)).
 
 
-As a result of several bachelor and master theses that I supervised, as well as our own research, we have developed a prototype of the *xAFCL* enactment engine, which is able to run serverless workflows or function choreographies (*FCs*) across many widely-known cloud providers (AWS Lambda, IBM Cloud Functions, Google Cloud Functions, Alibaba Function Compute, Microsoft Azure Cloud Functions, etc.)
 
-The following paragraphs present the available and recently started bachelor theses directly connected with the AFCL Environment.
+The following paragraphs present the available and recently started bachelor theses directly connected with the AFCL Environment. It also sumarizes the active and closed bachelor theses.
 
 
 # Available bachelor theses
 
 The following topics for bachelor theses are available for the summer semester 2021:
+* Tentative requirements analyses January-February 2021
 * Tentative start February-March 2021
 * Tentative finish June-December 2021
 
@@ -27,7 +31,9 @@ The following topics for bachelor theses are available for the summer semester 2
 
 ## 2. jContainer (or PyContainer or jsContainer)
 
-| Title | **jContainer: Portable Execution of Serverless Functions in container systems** |
+Based on your preferences regarding the programming language, you can select to work on jContainer, PyContainer, or jsContainer). It is also possible to work in a team of two students using two different proframming language.
+
+| Title | **jContainer (or PyContainer or jsContainer): Portable Execution of Serverless Functions in container systems** |
 | ----- | ----- | 
 | Description | All widely-known FaaS systems set up many design limitations (code size or memory assignment) and runtime limitations (size of input / output data, function duration, or hard disk size). The goal of this thesis is to develop a portable Java `jContainer` tool (or Python `PyContainer` or Node.js `jContainer`), which allows portable execution of serverless functions in multiple container systems, e.g., AWS Fargate or ECS. You may see our jFaaS too for portable execition of serverless functions on all widely-known FaaS system. 
 |Tasks| 1. Develop a Java `jContainer` for multiple FaaS systems.<br> 2. Compose / adapt a real-life application that uses multiple cloud services.<br> 3. Integrate `jContainer` in AFCL.<br> 4. Automatic container development and serverless function deployment of the serverless function.<br> 5. Evaluate the `jContainer` with the real-life serverless applications across multiple container systems.|
@@ -37,14 +43,12 @@ The following topics for bachelor theses are available for the summer semester 2
 ---
 
 
-Develop invokers to other compute end points - e.g. AWS ECS, Fargate, Docker, Kubernetes, Fission, OpenWhisk ... This will allow xAFCL to run not only serverless functions, but also functions in a container and on some open source FaaS frameworks.
-
 ## 3. AFCL vs-code IntelliSense
 
 Initial idea: build the FC using VS-code, but with intelligent proposal to fill the code (IntelliSense).
 
 
-# Recently started bachelor theses for the AFCL Environment)
+# Recently started bachelor theses for the AFCL Environment
 
 ## 1. *xAFCL* simulation framework
 
@@ -94,7 +98,7 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 * "Function Choreography Scheduling Framework for Multiple FaaS Systems", Tobias Pockstaller. Status - Writing the thesis.
 * "G2GA: Portable execution of workflows in Google Cloud Functions across multiple FaaS platforms", Anna Kapeller, Felix Petschko. Status - Development.
 
-Details for active bachelor theses can be found [here](./active/readme.md).
+Details for active bachelor theses can be found [here](./blob/main/active/readme.md).
 
 
 # Closed bachelor theses
@@ -112,7 +116,7 @@ Details for active bachelor theses can be found [here](./active/readme.md).
 * "Multi-provider enactment engine (EE) for serverless workflow applications", Jakob Nöckl, Markus Moosbrugger, SS2019. `Among top three theses for 2019` at the institute. Initial version of [xAFCL](https://github.com/sashkoristov/enactmentengine/).
 
 
-Details for closed bachelor theses can be found [here](./closed/readme.md).
+Details for closed bachelor theses can be found [here](./blob/main/closed/readme.md).
 
 
 
