@@ -34,12 +34,14 @@ Based on your preferences regarding the programming language, you can select to 
 ## 2. AFCL vs-code IntelliSense
 
 Initial idea: build the FC using VS-code, but with intelligent proposal to fill the code (IntelliSense). More invormation will follow soon.
+
 ---
 
 
 ## 3. AFCL Data-Flow
 
 Initial idea: Convert the abstract data-flow into concrete data-flow during runtime. More invormation will follow soon.
+
 ----
 
 # Recently started bachelor theses for the AFCL Environment (SS2021)
