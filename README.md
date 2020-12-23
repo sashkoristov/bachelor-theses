@@ -9,7 +9,7 @@ As a result of several bachelor and master theses that I supervised, we have dev
 The following paragraphs present the available and recently started bachelor theses directly connected with the AFCL Environment. It also sumarizes the active and closed bachelor theses.
 
 
-# Available bachelor theses
+# Available bachelor theses / ideas
 
 * Tentative requirements analyses January-February 2021
 * Tentative start February-March 2021
@@ -33,32 +33,33 @@ Based on your preferences regarding the programming language, you can select to 
 
 ## 2. AFCL vs-code IntelliSense
 
-Initial idea: build the FC using VS-code, but with intelligent proposal to fill the code (IntelliSense). More invormation will follow soon.
+Initial idea: build the FC using VS-code, but with intelligent proposal to fill the code (IntelliSense). More information will follow soon.
 
 ---
 
 
 ## 3. AFCL Data-Flow
 
-Initial idea: Convert the abstract data-flow into concrete data-flow during runtime. More invormation will follow soon.
+Initial idea: Convert the abstract data-flow into concrete data-flow during runtime. More information will follow soon.
 
 ----
 
 # Recently started bachelor theses for the AFCL Environment (SS2021)
 
-## 1. Portable Java *FCfier*
+## 1. *jFCfier* 
 
-| Title | **Portable Java *FCfier*** |
+| Title | ***jFCfier*: Portable Java *FCfier*** |
 | ----- | ----- | 
 | Students | David Freina and Jonas Wagner | 
-| Description |  The goal of this thesis is to develop a portable Java *FCfier*, which allows the FC developer to annotate the target FaaS system per serverless function, faasifies parts of the Java monolith as serverless functions across multiple FaaS systems, updates the offloaded code with the corresponding API calls, converts Java monoliths as FCs, and evaluate their scalability. It is recommended to use the same annotation from our DAF tool (see our paper in the references).
-|Tentative tasks| 1. Develop a Java *FCfier* for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Java for FaaSification.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *FCfier* with real-life serverless applications.|
+| Status | Requirements analysis | 
+| Description |  The goal of this thesis is to develop a portable Java FCfier (*jFCfier*), which allows the FC developer to annotate the target FaaS system per serverless function, faasifies parts of the Java monolith as serverless functions across multiple FaaS systems, updates the offloaded code with the corresponding API calls, converts Java monoliths as FCs, and evaluate their scalability. It is recommended to use the same annotation from our DAF tool (see our paper in the references).
+|Tentative tasks| 1. Develop a Java FCfier (*jFCfier*) for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Java for FaaSification.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *jFCfier* with real-life serverless applications.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
 |Practical skills | Java, Cloud APIs.|
 |References| 1. (`FaaSification annotation`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 2. (`Portable invocation`) Middleware services to support workflow execution in a Multi-FaaS environment student: Jakob Wallnöfer, supervisor: Sashko Ristov, [js2faaS](https://github.com/qngapparat/js2faas), [java2faaS](https://github.com/qngapparat/java2faas), [X2FaaS](https://github.com/qngapparat/X2FaaS).<br> 3. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF).<br> 4. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).<br> 6. (`A Java FaaSifier`) [Podilizer](https://github.com/serviceprototypinglab/podilizer). | |
 ---
 
-## 2. *xAFCLSim* simulation framework
+## 2. *xAFCLSim* 
 
 | Title | ***xAFCLSim* simulation framework** |
 | ----- | ----- | 
@@ -71,7 +72,7 @@ Initial idea: Convert the abstract data-flow into concrete data-flow during runt
 |References| 1. S. Ristov, S. Pedratscher, T. Fahringer, “AFCL: An Abstract Function Choreography Language for serverless workflow specification,” Future Generation Computer Systems, Volume 114, 2021, Pages 368-382, ISSN 0167-739X, https://doi.org/10.1016/j.future.2020.08.012.<br> 2. Enactment engine to run serverless workflows [xAFCL](https://github.com/sashkoristov/enactmentengine).<br> 3. A multi-FaaS toolkit for portable execution of serverless functions [jFaaS](https://github.com/sashkoristov/jFaaS)| |
 ---
 
-## 3. *xAFCLTrace* scheduling and tracing framework
+## 3. *xAFCLTrace* 
 
 | Title | ***xAFCLTrace* scheduling and tracing framework** |
 | ----- | ----- | 
@@ -85,14 +86,14 @@ Initial idea: Convert the abstract data-flow into concrete data-flow during runt
 ---
 
 
-## 4. Portable Python FCifier
+## 4. *pyFCfier*
 
-| Title | **Portable Python FCifier** |
+| Title | ***pyFCfier*: Portable Python FCifier** |
 | ----- | ----- | 
 | Student | Mark Nardi | 
 | Status | Requirements analysis | 
-| Description |  The goal of this thesis is to develop a portable Python FCfier, which allows the FC developer to select the target FaaS system per serverless function, faasifies parts of the monolith as serverless fynctions across multiple FaaS systems, updates the offloaded code with the corresponding API calls converts Python monoliths as FCs and evaluate their scalability. 
-|Tasks| 1. Develop a Python FCifier for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Python to be FaaSified.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *FCifier* with real-life serverless applications.|
+| Description |  The goal of this thesis is to develop a portable Python FCfier (*pyFCfier*), which allows the FC developer to select the target FaaS system per serverless function, faasifies parts of the monolith as serverless fynctions across multiple FaaS systems, updates the offloaded code with the corresponding API calls converts Python monoliths as FCs and evaluate their scalability. 
+|Tasks| 1. Develop a Python FCifier *pyFCfier* for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Python to be FaaSified.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *pyFCfier* with real-life serverless applications.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
 |Practical skills | Python.|
 |References| 1. (`FaaSification annotation`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 2. (`FaaS portability`) Bachelor theses: "Middleware services to support workflow execution in a Multi-FaaS environment", student: Jakob Wallnöfer, supervisor: Sashko Ristov, [js2faaS](https://github.com/qngapparat/js2faas), [java2faaS](https://github.com/qngapparat/java2faas), [X2FaaS](https://github.com/qngapparat/X2FaaS).<br> 3. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF).<br> 4. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).| |
