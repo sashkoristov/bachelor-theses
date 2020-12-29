@@ -8,6 +8,7 @@ As a result of several bachelor and master theses that I supervised, we have dev
 
 The following paragraphs present the available and recently started bachelor theses directly connected with the AFCL Environment. It also sumarizes the active and closed bachelor theses.
 
+You can find a latex template for the bachelor thesis which includes some hints [here](https://github.com/sashkoristov/bachelor-theses/tree/main/template).
 
 # Available bachelor theses / ideas
 
