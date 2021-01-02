@@ -34,14 +34,20 @@ Based on your preferences regarding the programming language, you can select to 
 
 ## 2. AFCL vs-code IntelliSense
 
-Initial idea: build the FC using VS-code, but with intelligent proposal to fill the code (IntelliSense). More information will follow soon.
+Initial idea: build the FC using VS-code, but with intelligent proposal to fill the code (IntelliSense). For more information, please contact me on sashko@dps.uibk.ac.at.
 
 ---
 
 
 ## 3. AFCL Data-Flow
 
-Initial idea: Convert the abstract data-flow into concrete data-flow during runtime. More information will follow soon.
+Initial idea: Convert the abstract data-flow into concrete data-flow during runtime. For more information, please contact me on sashko@dps.uibk.ac.at.
+
+---
+
+## 4. aSync *xAFCL*
+
+Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions asynchronously across multiple FaaS systems. See the [invoke-type](https://github.com/sashkoristov/AFCL/tree/main/invocation-type) property in *AFCL*. For more information, please contact me on sashko@dps.uibk.ac.at. 
 
 ----
 
