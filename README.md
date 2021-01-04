@@ -39,9 +39,16 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 ---
 
 
-## 3. AFCL Data-Flow
+## 3. *xAFCL* Data-Flow
 
-Initial idea: Convert the abstract data-flow into concrete data-flow during runtime. For more information, please contact me on sashko@dps.uibk.ac.at.
+| Title | ***xAFCL* data-flow** |
+| ----- | ----- | 
+| Description | The goal of this thesis it to facilitate the development of FCs with data-flow between abstract function types. After development, the system will convert the abstract into concrete data-flow during runtime.|
+|Tasks| 1. Graphical development of FC data-flow considering data ports interoperbility and integration with AFCL meta-data database.<br> 2. Convert abstract to concrete data-flow.<br> 3. Data-flow managament (e.g., merge data inputs/outputs, passing data, sub-objects, super-objects, DAG-based data-flow, data-flow through compound functions, ...).<br> 4. Automatic generation of AFCL/CFCL.<br> 6. Evaluate the converted data-flow.|
+| Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
+|Practical skills | Java |
+|References| 1. S. Ristov, S. Pedratscher, T. Fahringer, “AFCL: An Abstract Function Choreography Language for serverless workflow specification,” Future Generation Computer Systems, Volume 114, 2021, Pages 368-382, ISSN 0167-739X, https://doi.org/10.1016/j.future.2020.08.012.<br> 2. Enactment engine to run serverless workflows [xAFCL](https://github.com/sashkoristov/enactmentengine).<br> 3. A multi-FaaS toolkit for portable execution of serverless functions [jFaaS](https://github.com/sashkoristov/jFaaS).<br> 4. (`Automatic infrastructure deployment`) [Terraform](https://www.terraform.io/).| |
+
 
 ---
 
@@ -59,7 +66,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 | ----- | ----- | 
 | Students | David Freina and Jonas Wagner | 
 | Status | Requirements analysis | 
-| Description |  The goal of this thesis is to develop a portable Java FCfier (*jFCfier*), which allows the FC developer to annotate the target FaaS system per serverless function, faasifies parts of the Java monolith as serverless functions across multiple FaaS systems, updates the offloaded code with the corresponding API calls, converts Java monoliths as FCs, and evaluate their scalability. It is recommended to use the same annotation from our DAF tool (see our paper in the references).
+| Description |  The goal of this thesis is to develop a portable Java FCfier (*jFCfier*), which allows the FC developer to annotate the target FaaS system per serverless function, faasifies parts of the Java monolith as serverless functions across multiple FaaS systems, updates the offloaded code with the corresponding API calls, converts Java monoliths as FCs, and evaluate their scalability. It is recommended to use the same annotation from our DAF tool (see our paper in the references).|
 |Tentative tasks| 1. Develop a Java FCfier (*jFCfier*) for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Java for FaaSification.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *jFCfier* with real-life serverless applications.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
 |Practical skills | Java, Cloud APIs.|
@@ -72,7 +79,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 | ----- | ----- | 
 | Student | Mika Hautz | 
 | Status | Requirements analysis | 
-| Description | Running highly scalable FCs may be a long running and costly operation. To analyze the application behavior with minimal execution time and costs, users prefer to use simulation. The goal of this bachelor thesis is to develop an *xAFCL* simulation framework, which will simulate the FC execution. The simulated values will be calculated based on a novel FaaS computing model. A dynamism will be added based on some known distributions. FCs are built with the existing [Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012))] and run with the existing *xAFCL* enactment engine.
+| Description | Running highly scalable FCs may be a long running and costly operation. To analyze the application behavior with minimal execution time and costs, users prefer to use simulation. The goal of this bachelor thesis is to develop an *xAFCL* simulation framework, which will simulate the FC execution. The simulated values will be calculated based on a novel FaaS computing model. A dynamism will be added based on some known distributions. FCs are built with the existing [Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012))] and run with the existing *xAFCL* enactment engine.|
 |Tasks| 1. Compose / adapt a few real-life applications as FCs.<br> 2. Execute the composed FCs across multiple FaaS providers.<br> 3. Measure and profile the performance and cost of FCs.<br> 4. Model FCs and FaaS systems in *xAFCLSim*.<br> 5. Visualize the simulation.<br> 6. Evaluate the simulation (cost/performance/possibilities) with real execution.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
 |Practical skills | Java|
@@ -85,7 +92,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 | ----- | ----- | 
 | Student | Philipp Gritsch | 
 | Status | Requirements analysis | 
-| Description | Running FCs across a heterogeneous environment may not be reproducible, which affects the accuracy and estimation of the FC behavior. The goal of this thesis is to develop an *xAFCLTrace* scheduling and tracing framework, which will emulate the FC execution based on some scheduling algorithm. The traces may be generated by a real execution or by external sources. FCs are built with the existing Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012])) and run with the existing [xAFCL](https://github.com/sashkoristov/enactmentengine) enactment engine.
+| Description | Running FCs across a heterogeneous environment may not be reproducible, which affects the accuracy and estimation of the FC behavior. The goal of this thesis is to develop an *xAFCLTrace* scheduling and tracing framework, which will emulate the FC execution based on some scheduling algorithm. The traces may be generated by a real execution or by external sources. FCs are built with the existing Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012])) and run with the existing [xAFCL](https://github.com/sashkoristov/enactmentengine) enactment engine.|
 |Tasks| 1. Compose / adapt a few real-life applications as FCs.<br> 2. Execute the composed FCs across multiple FaaS providers Log and trace the real FC execution.<br> 3. Develop a common interface AFCL -> Intermediary representation -> Scheduler (e.g., list-based) -> Intermediary representation -> Concrete Function Choreography Language (CFCL).<br> 4. Visualize the tracing.<br> 5. Evaluate various schedulers (cost/performance) with real execution.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
 |Practical skills | Java.|
@@ -99,7 +106,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 | ----- | ----- | 
 | Student | Mark Nardi | 
 | Status | Requirements analysis | 
-| Description |  The goal of this thesis is to develop a portable Python FCfier (*pyFCfier*), which allows the FC developer to select the target FaaS system per serverless function, faasifies parts of the monolith as serverless fynctions across multiple FaaS systems, updates the offloaded code with the corresponding API calls converts Python monoliths as FCs and evaluate their scalability. 
+| Description |  The goal of this thesis is to develop a portable Python FCfier (*pyFCfier*), which allows the FC developer to select the target FaaS system per serverless function, faasifies parts of the monolith as serverless fynctions across multiple FaaS systems, updates the offloaded code with the corresponding API calls converts Python monoliths as FCs and evaluate their scalability.|
 |Tasks| 1. Develop a Python FCifier *pyFCfier* for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Python to be FaaSified.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *pyFCfier* with real-life serverless applications.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
 |Practical skills | Python.|
