@@ -16,7 +16,7 @@ You can find a latex template for the bachelor thesis which includes some hints 
 * Tentative start February-March 2021
 * Tentative finish June-December 2021
 
-The following topics three topics for bachelor theses are available for the summer semester 2021.
+The following topics for bachelor theses are available for the summer semester 2021.
 
 ## 1. *xContainer* (*jContainer* or *pyContainer* or *jsContainer*)
 
@@ -38,21 +38,7 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 
 ---
 
-
-## 3. *xAFCL* Data-Flow
-
-| Title | ***xAFCL* data-flow** |
-| ----- | ----- | 
-| Description | The goal of this thesis is to facilitate the development of FCs with data-flow between abstract function types. After development, the system will convert the abstract into concrete data-flow during runtime.|
-|Tasks| 1. Graphical development of FC data-flow considering data ports interoperbility and integration with AFCL meta-data database.<br> 2. Convert abstract to concrete data-flow.<br> 3. Data-flow managament (e.g., merge data inputs/outputs, passing data, sub-objects, super-objects, DAG-based data-flow, data-flow through compound functions, ...).<br> 4. Automatic generation of AFCL/CFCL code.<br> 5. Evaluate the converted data-flow with a representative FC.|
-| Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
-|Practical skills | Java |
-|References| 1. S. Ristov, S. Pedratscher, T. Fahringer, “AFCL: An Abstract Function Choreography Language for serverless workflow specification,” Future Generation Computer Systems, Volume 114, 2021, Pages 368-382, ISSN 0167-739X, https://doi.org/10.1016/j.future.2020.08.012.<br> 2. Enactment engine to run serverless workflows [xAFCL](https://github.com/sashkoristov/enactmentengine).<br> 3. A multi-FaaS toolkit for portable execution of serverless functions [jFaaS](https://github.com/sashkoristov/jFaaS).<br> 4. (`Automatic infrastructure deployment`) [Terraform](https://www.terraform.io/).| |
-
-
----
-
-## 4. aSync *xAFCL*
+## 3. aSync *xAFCL*
 
 Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions asynchronously across multiple FaaS systems. See the [invoke-type](https://github.com/sashkoristov/AFCL/tree/main/invocation-type) property in *AFCL*. For more information, please contact me on sashko@dps.uibk.ac.at. 
 
@@ -60,7 +46,22 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 
 # Recently started bachelor theses for the AFCL Environment (SS2021)
 
-## 1. *jFCfier* 
+
+## *xAFCL* Data-Flow
+
+| Title | ***xAFCL* data-flow** |
+| ----- | ----- | 
+| Student | Andreas Reheis | 
+| Status | Requirements analysis | 
+| Description | The goal of this thesis is to facilitate the development of FCs with data-flow between abstract function types. After development, the system will convert the abstract into concrete data-flow during runtime.|
+|Tasks| 1. Graphical development of FC data-flow considering data ports interoperbility and integration with AFCL meta-data database.<br> 2. Convert abstract to concrete data-flow.<br> 3. Data-flow managament (e.g., merge data inputs/outputs, passing data, sub-objects, super-objects, DAG-based data-flow, data-flow through compound functions, ...).<br> 4. Automatic generation of AFCL/CFCL code.<br> 5. Evaluate the converted data-flow with a representative FC.|
+| Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
+|Practical skills | Java |
+|References| 1. S. Ristov, S. Pedratscher, T. Fahringer, “AFCL: An Abstract Function Choreography Language for serverless workflow specification,” Future Generation Computer Systems, Volume 114, 2021, Pages 368-382, ISSN 0167-739X, https://doi.org/10.1016/j.future.2020.08.012.<br> 2. Enactment engine to run serverless workflows [xAFCL](https://github.com/sashkoristov/enactmentengine).<br> 3. A multi-FaaS toolkit for portable execution of serverless functions [jFaaS](https://github.com/sashkoristov/jFaaS).<br> 4. (`Automatic infrastructure deployment`) [Terraform](https://www.terraform.io/).| |
+---
+
+
+## *jFCfier* 
 
 | Title | ***jFCfier*: Portable Java *FCfier*** |
 | ----- | ----- | 
@@ -73,7 +74,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 |References| 1. (`FaaSification annotation`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 2. (`Portable invocation`) Middleware services to support workflow execution in a Multi-FaaS environment student: Jakob Wallnöfer, supervisor: Sashko Ristov, [js2faaS](https://github.com/qngapparat/js2faas), [java2faaS](https://github.com/qngapparat/java2faas), [X2FaaS](https://github.com/qngapparat/X2FaaS).<br> 3. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF).<br> 4. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).<br> 6. (`A Java FaaSifier`) [Podilizer](https://github.com/serviceprototypinglab/podilizer). | |
 ---
 
-## 2. *xAFCLSim* 
+## *xAFCLSim* 
 
 | Title | ***xAFCLSim* simulation framework** |
 | ----- | ----- | 
@@ -86,7 +87,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 |References| 1. S. Ristov, S. Pedratscher, T. Fahringer, “AFCL: An Abstract Function Choreography Language for serverless workflow specification,” Future Generation Computer Systems, Volume 114, 2021, Pages 368-382, ISSN 0167-739X, https://doi.org/10.1016/j.future.2020.08.012.<br> 2. Enactment engine to run serverless workflows [xAFCL](https://github.com/sashkoristov/enactmentengine).<br> 3. A multi-FaaS toolkit for portable execution of serverless functions [jFaaS](https://github.com/sashkoristov/jFaaS)| |
 ---
 
-## 3. *xAFCLTrace* 
+## *xAFCLTrace* 
 
 | Title | ***xAFCLTrace* scheduling and tracing framework** |
 | ----- | ----- | 
@@ -100,7 +101,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 ---
 
 
-## 4. *pyFCfier*
+## *pyFCfier*
 
 | Title | ***pyFCfier*: Portable Python FCifier** |
 | ----- | ----- | 
