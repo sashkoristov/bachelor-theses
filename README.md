@@ -5,11 +5,21 @@ As a result of several bachelor and master theses that I supervised, we have dev
 
 *xAFCL EE* is the core part of the [AFCL Environment](https://github.com/sashkoristov/AFCLEnvironment), a platform to develop, deploy, and fault tolerant execution of FCs developed in our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)).
 
-
-The following paragraphs present the available and recently started bachelor theses directly connected with the AFCL Environment. It also sumarizes the active and closed bachelor theses.
+The following paragraphs present the available and recently started bachelor theses. It also sumarizes the active and closed bachelor theses. If you are interested in doing a bachelor thesis, please contact me on sashko.ristov@uibk.ac.at.
 
 You can find a latex template for the bachelor thesis which includes some hints [here](https://github.com/sashkoristov/bachelor-theses/tree/main/template).
 
+Milestones for a successful bachelor thesis:
+- Requirements analysis
+- System architecture
+- Initial presentation
+- Development
+- Evaluation
+- Finalizing the bachelor thesis
+- Final presentation
+- `Farewell party` :blush:
+
+<!--
 # Available bachelor theses / ideas
 
 * Tentative requirements analyses January-February 2021
@@ -18,33 +28,44 @@ You can find a latex template for the bachelor thesis which includes some hints 
 
 The following topics for bachelor theses are available for the summer semester 2021.
 
-## 1. *xContainer* (*jContainer* or *pyContainer* or *jsContainer*)
-
-Based on your preferences regarding the programming language, you can select to work on *jContainer*, *PyContainer*, or *jsContainer*. It is also possible to work in a team of two students using two different proframming languages.
-
-| Title | ***xContainer*: Portable Execution of Serverless Functions in container systems** |
-| ----- | ----- | 
-| Description | All widely-known FaaS systems set up many design limitations (e.g., code size or memory assignment) and runtime limitations (e.g., size of input / output data, function duration, or hard disk size). The goal of this thesis is to develop a portable `xContainer` tool, which allows portable execution of serverless functions in multiple container systems, e.g., AWS Fargate or ECS. You may see our jFaaS tool for portable execition of serverless functions across all widely-known FaaS system. 
-|Tentative tasks| 1. Develop the `xContainer` for multiple FaaS systems.<br> 2. Compose / adapt a real-life application that uses multiple cloud services.<br> 3. Integrate `xContainer` in AFCL (for `jContainer`).<br> 4. Automatic container development and serverless function deployment of the serverless function.<br> 5. Evaluate the `xContainer` with the real-life serverless applications across multiple container systems.|
-| Theoretical skills |  Distributed Systems, Cloud Computing, Container Systems | 
-|Practical skills | Java (or Python, Node.js), Cloud APIs.|
-|References| 1. (jFaaS)[https://github.com/sashkoristov/jFaaS].<br> 2. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF).<br> 3. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 4. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).<br> 5. Abstract Function Choreography Language ([AFCL paper](https://doi.org/10.1016/j.future.2020.08.012))], [AFCL git](https://github.com/sashkoristov/AFCL).  | |
----
-
-
 ## 2. AFCL vs-code IntelliSense
 
 Initial idea: build the FC using VS-code, but with intelligent proposal to fill the code (IntelliSense). For more information, please contact me on sashko@dps.uibk.ac.at.
-
----
-
-## 3. aSync *xAFCL*
-
-Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions asynchronously across multiple FaaS systems. See the [invoke-type](https://github.com/sashkoristov/AFCL/tree/main/invocation-type) property in *AFCL*. For more information, please contact me on sashko@dps.uibk.ac.at. 
-
+-->
 ----
 
-# Recently started bachelor theses for the AFCL Environment (SS2021)
+# Recently started bachelor theses (SS2021)
+
+## *jContainer* 
+
+<!-- Based on your preferences regarding the programming language, you can select to work on *jContainer*, *PyContainer*, or *jsContainer*. It is also possible to work in a team of two students using two different proframming languages.
+-->
+
+| Title | ***jContainer*: Portable execution of FCs across multiple container systems** |
+| ----- | ----- | 
+| Students | David Baumgartner and Albert Neuner | 
+| Status | Requirements analysis | 
+| Description | All widely-known FaaS systems set up many design limitations (e.g., code size or memory assignment) and runtime limitations (e.g., size of input / output data, function duration, or hard disk size). The goal of this thesis is to develop a portable `jContainer` tool, which allows portable execution of FCs in multiple container systems, e.g., AWS Fargate or ECS.
+|Tasks| 1. Develop a `jContainer` for multiple container systems.<br> 2. Integrate `jContainer` in *xAFCL EE*.<br> 3. Automatic container development and deployment of containers for multiple providers.<br> 4. Compose / adapt a real-life application that uses multiple cloud services.<br> 5. Evaluate `jContainer` with the real-life serverless applications across multiple container systems.|
+| Theoretical skills |  Distributed Systems, Cloud Computing, Virtualization | 
+| Practical skills | Java (or Python, Node.js), Cloud APIs, Container Systems.|
+| References | 1. [jFaaS](https://github.com/sashkoristov/jFaaS).<br> 2. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF).<br> 3. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 4. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).<br> 5. Abstract Function Choreography Language ([AFCL paper](https://doi.org/10.1016/j.future.2020.08.012))].  | |
+---
+
+## *aSync xAFCL EE*
+
+| Title | ***aSync xAFCL EE*: Asynchronous enactment of FCs across multiple FaaS systems** |
+| ----- | ----- | 
+| Student | Stefan Kotrba | 
+| Status | Requirements analysis | 
+| Description | All widely-known FaaS systems allow asynchronous invocation of serverless functions. The goal of this bachelor thesis is to develop the *aSync xAFCL EE* which will be able to enact *FCs* asynchronously across multiple FaaS systems.
+|Tasks| 1. Review the existing workflow management systems (WMSs) that support asynchronous invocation.<br> 2. Analyze the behavior of FaaS systems over asynchronous invocation.<br> 3. Extend / revise asynchronous support in AFCL.<br> 4. Develop asynchronous invokers for well-known FaaS systems.<br> 5. Develop *aSync xAFCL EE* to support nested asynchronous invocation of (base and compound) functions.<br> 6. Evaluate the *async xAFCL EE* with asynchronous serverless workflows.|
+| Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
+| Practical skills | Java, Python, Node.js, Cloud APIs.|
+| References | 1. [jFaaS](https://github.com/sashkoristov/jFaaS).<br> 2. Abstract Function Choreography Language ([AFCL paper](https://doi.org/10.1016/j.future.2020.08.012))].  | |
+---
+
+
 
 
 ## *xAFCL* Data-Flow
@@ -66,7 +87,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 | Title | ***jFCfier*: Portable Java *FCfier*** |
 | ----- | ----- | 
 | Students | David Freina and Jonas Wagner | 
-| Status | Requirements analysis | 
+| Status | System architecture | 
 | Description |  The goal of this thesis is to develop a portable Java FCfier (*jFCfier*), which allows the FC developer to annotate the target FaaS system per serverless function, faasifies parts of the Java monolith as serverless functions across multiple FaaS systems, updates the offloaded code with the corresponding API calls, converts Java monoliths as FCs, and evaluate their scalability. It is recommended to use the same annotation from our DAF tool (see our paper in the references).|
 |Tentative tasks| 1. Develop a Java FCfier (*jFCfier*) for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Java for FaaSification.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *jFCfier* with real-life serverless applications.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
@@ -92,7 +113,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 | Title | ***xAFCLTrace* scheduling and tracing framework** |
 | ----- | ----- | 
 | Student | Philipp Gritsch | 
-| Status | Requirements analysis | 
+| Status | System architecture | 
 | Description | Running FCs across a heterogeneous environment may not be reproducible, which affects the accuracy and estimation of the FC behavior. The goal of this thesis is to develop an *xAFCLTrace* scheduling and tracing framework, which will emulate the FC execution based on some scheduling algorithm. The traces may be generated by a real execution or by external sources. FCs are built with the existing Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012])) and run with the existing [xAFCL](https://github.com/sashkoristov/enactmentengine) enactment engine.|
 |Tasks| 1. Compose / adapt a few real-life applications as FCs.<br> 2. Execute the composed FCs across multiple FaaS providers Log and trace the real FC execution.<br> 3. Develop a common interface AFCL -> Intermediary representation -> Scheduler (e.g., list-based) -> Intermediary representation -> Concrete Function Choreography Language (CFCL).<br> 4. Visualize the tracing.<br> 5. Evaluate various schedulers (cost/performance) with real execution.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
@@ -106,7 +127,7 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 | Title | ***pyFCfier*: Portable Python FCifier** |
 | ----- | ----- | 
 | Student | Mark Nardi | 
-| Status | Requirements analysis | 
+| Status | System architecture | 
 | Description |  The goal of this thesis is to develop a portable Python FCfier (*pyFCfier*), which allows the FC developer to select the target FaaS system per serverless function, faasifies parts of the monolith as serverless fynctions across multiple FaaS systems, updates the offloaded code with the corresponding API calls converts Python monoliths as FCs and evaluate their scalability.|
 |Tasks| 1. Develop a Python FCifier *pyFCfier* for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Python to be FaaSified.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *pyFCfier* with real-life serverless applications.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
@@ -119,14 +140,15 @@ Initial idea: Develop the aSync *xAFCL* which will be able to invoke functions a
 
 1. "A learning-based simulation framework for volatile cloud resources", Johannes Spies, Simon Triendl. Status - Development
 1. "Decoupled Automatic Deployment of AFCL Workflows", Caroline Haller, Christoph Abenthung. Status - Finalizing development.
-1. "Function Choreography Scheduling Framework for Multiple FaaS Systems", Tobias Pockstaller. Status - Writing the thesis.
 1. "G2GA: Portable execution of workflows in Google Cloud Functions across multiple FaaS platforms", Anna Kapeller, Felix Petschko. Status - Development.
 
-Details for active bachelor theses can be found [here](./blob/main/active/readme.md).
+Details for active bachelor theses can be found [here](./active/readme.md).
 
 
 # Closed bachelor theses
 
+1. "Establishing Virtual Networks in Amazon Web Services", Hüseyin Gündogan, WS2020.
+1. "Function Choreography Scheduling Framework for Multiple FaaS Systems", Tobias Pockstaller, WS2020.
 1. "Running workflow applications across multiple cloud providers", Marina Aichinger, SS2020
 1. "Advisor for renting virtual machines from various public cloud service providers", Thomas Wurzer, SS2020
 1. "Monitoring system for virtualized resources in a cloud data center", David Bucher, Peter Scheier, SS2020
@@ -141,7 +163,7 @@ Details for active bachelor theses can be found [here](./blob/main/active/readme
 1. "Multi-provider enactment engine (EE) for serverless workflow applications", Jakob Nöckl, Markus Moosbrugger, SS2019. `Among top three theses for 2019` at the institute. Initial version of [xAFCL](https://github.com/sashkoristov/enactmentengine/).
 
 
-Details for closed bachelor theses can be found [here](./blob/main/closed/readme.md).
+Details for closed bachelor theses can be found [here](./closed/readme.md).
 
 
 
@@ -149,6 +171,6 @@ Details for closed bachelor theses can be found [here](./blob/main/closed/readme
 
 # Contact
 
-If you need any additional information, please do not hesitate to contact me on sashko@dps.uibk.ac.at.
+If you need any additional information, please do not hesitate to contact me on sashko.ristov@uibk.ac.at.
 
 My topics for master theses may be found [here](https://github.com/sashkoristov/master-theses).
