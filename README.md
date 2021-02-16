@@ -142,7 +142,7 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 1. "Decoupled Automatic Deployment of AFCL Workflows", Caroline Haller, Christoph Abenthung. Status - Finalizing development.
 1. "G2GA: Portable execution of workflows in Google Cloud Functions across multiple FaaS platforms", Anna Kapeller, Felix Petschko. Status - Development.
 
-Details for active bachelor theses can be found [here](./active/readme.md).
+Details for active bachelor theses can be found [here](./active/README.md).
 
 
 # Closed bachelor theses
@@ -163,7 +163,7 @@ Details for active bachelor theses can be found [here](./active/readme.md).
 1. "Multi-provider enactment engine (EE) for serverless workflow applications", Jakob Nöckl, Markus Moosbrugger, SS2019. `Among top three theses for 2019` at the institute. Initial version of [xAFCL](https://github.com/sashkoristov/enactmentengine/).
 
 
-Details for closed bachelor theses can be found [here](./closed/readme.md).
+Details for closed bachelor theses can be found [here](./closed/README.md).
 
 
 
