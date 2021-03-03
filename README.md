@@ -139,7 +139,6 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 # Active bachelor theses
 
 1. "A learning-based simulation framework for volatile cloud resources", Johannes Spies, Simon Triendl. Status - Development
-1. "Decoupled Automatic Deployment of AFCL Workflows", Caroline Haller, Christoph Abenthung. Status - Finalizing development.
 1. "G2GA: Portable execution of workflows in Google Cloud Functions across multiple FaaS platforms", Anna Kapeller, Felix Petschko. Status - Development.
 
 Details for active bachelor theses can be found [here](./active/README.md).
@@ -147,6 +146,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 # Closed bachelor theses
 
+1. "Decoupled Automatic Deployment of AFCL Workflows", Caroline Haller, Christoph Abenthung. SS2021.
 1. "Establishing Virtual Networks in Amazon Web Services", Hüseyin Gündogan, WS2020.
 1. "Function Choreography Scheduling Framework for Multiple FaaS Systems", Tobias Pockstaller, WS2020.
 1. "Running workflow applications across multiple cloud providers", Marina Aichinger, SS2020
