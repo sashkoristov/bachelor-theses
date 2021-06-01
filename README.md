@@ -38,7 +38,7 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 
 ## *fService*
 
-| Title | ***fService*: Agile development of serverless functions with portable cloud services** |
+| Title | ***fService*: Configurable abstraction for serverless development** |
 | ----- | ----- | 
 | Student | Benjamin Hackstock | 
 | Status | Development | 
