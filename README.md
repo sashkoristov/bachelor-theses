@@ -36,12 +36,25 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 
 # Recently started bachelor theses (SS2021)
 
+## *pyStorage*
+
+| Title | ***pyStorage*: Agile development and optimized execution of data-intensive serverless workflows** |
+| ----- | ----- | 
+| Students | Isabella Schmut and Peter Koll | 
+| Status | Development | 
+| Description |  Development of serverless functions that use multiple cloud services is a complex task as it may require a huge development effort to integrate various libraries for each cloud service that the function uses. This thesis explores how to model cloud service types that a function uses in order to abstract them and offer a single interface for specific service type. *pyStorage* will be implemented to support serverless functions developed in Python programming languages and cloud storages of multiple cloud providers (e.g., AWS, Google, etc). 
+|Tasks| 1. Define interfaces and methods for various cloud storages. For instance, uploadFile(bucket), downloadFile(bucket). <br> 2. Develop implementations of interfaces for various cloud providers (e.g., AWS, Google, etc) in Python. <br> 3. Build portable FCs for a real-life application with dynamic inputs of functions to specify the specific storages that they use.<br> 4. Develop a model for portable cloud storages used by FC functions.<br> 5. Based on the model, develop a scheduler that updates the FC (function deployments and service deployments as data inputs).<br> 6. Evaluate the system with real life applications and optimal selection of the proper cloud storage.|
+| Theoretical skills | Cloud Computing, Serverless. | 
+| Practical skills | Python, Cloud APIs.||
+---
+
+
 ## *fService*
 
 | Title | ***fService*: Configurable abstraction for serverless development** |
 | ----- | ----- | 
 | Student | Benjamin Hackstock | 
-| Status | Development | 
+| Status | Finalizing the bachelor thesis | 
 | Description |  Development of serverless functions that use multiple cloud services is a complex task as it may require a huge development effort to integrate various libraries for each cloud service that the function uses. This thesis explores how to model cloud service types that a function uses in order to abstract them and offer a single interface with various methods for specific tasks. *fService* will be implemented to support various programming languages (e.g., Java, node.js, Python, etc.) and several cloud services (e.g., storage, object recognition, prediction, etc) of multiple cloud providers (e.g., AWS, Google, etc).
 |Tasks| 1. Define interfaces and methods for various cloud services (e.g., storage, object recognition, prediction, etc). For instance, uploadFile(bucket), downloadFile(bucket). <br> 2. Develop implementations of interfaces for various cloud providers (e.g., AWS, Google, etc).<br> 3. Develop implementations of interfaces for various programming languages (e.g., Java, node.js, Python, etc).<br> 4. Build a portable FC for a real-life application with dynamic inputs of functions to specify the specific services that they use.<br> 5. Evaluate the system with real life applications and optimal selection of the proper cloud service.|
 | Theoretical skills | Cloud Computing, Serverless. | 
@@ -69,7 +82,7 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 | Title | ***aSync xAFCL EE*: Asynchronous enactment of FCs across multiple FaaS systems** |
 | ----- | ----- | 
 | Student | Stefan Kotrba | 
-| Status | Development | 
+| Status | Finalizing the bachelor thesis | 
 | Description | All widely-known FaaS systems allow asynchronous invocation of serverless functions. The goal of this bachelor thesis is to develop the *aSync xAFCL EE* which will be able to enact *FCs* asynchronously across multiple FaaS systems.
 |Tasks| 1. Review the existing workflow management systems (WMSs) that support asynchronous invocation.<br> 2. Analyze the behavior of FaaS systems over asynchronous invocation.<br> 3. Extend / revise asynchronous support in AFCL.<br> 4. Develop asynchronous invokers for well-known FaaS systems.<br> 5. Develop *aSync xAFCL EE* to support nested asynchronous invocation of (base and compound) functions.<br> 6. Evaluate the *async xAFCL EE* with asynchronous serverless workflows.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
@@ -109,7 +122,7 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 | Title | ***xAFCLSim* simulation framework** |
 | ----- | ----- | 
 | Student | Mika Hautz | 
-| Status | Development | 
+| Status | Final presentation | 
 | Description | Running highly scalable FCs may be a long running and costly operation. To analyze the application behavior with minimal execution time and costs, users prefer to use simulation. The goal of this bachelor thesis is to develop an *xAFCL* simulation framework, which will simulate the FC execution. The simulated values will be calculated based on a novel FaaS computing model. A dynamism will be added based on some known distributions. FCs are built with the existing [Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012))] and run with the existing *xAFCL* enactment engine.|
 |Tasks| 1. Compose / adapt a few real-life applications as FCs.<br> 2. Execute the composed FCs across multiple FaaS providers.<br> 3. Measure and profile the performance and cost of FCs.<br> 4. Model FCs and FaaS systems in *xAFCLSim*.<br> 5. Visualize the simulation.<br> 6. Evaluate the simulation (cost/performance/possibilities) with real execution.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
@@ -121,7 +134,7 @@ Initial idea: build the FC using VS-code, but with intelligent proposal to fill 
 | Title | ***xAFCLTrace* scheduling and tracing framework** |
 | ----- | ----- | 
 | Student | Philipp Gritsch | 
-| Status | Development | 
+| Status | Final presentation | 
 | Description | Running FCs across a heterogeneous environment may not be reproducible, which affects the accuracy and estimation of the FC behavior. The goal of this thesis is to develop an *xAFCLTrace* scheduling and tracing framework, which will emulate the FC execution based on some scheduling algorithm. The traces may be generated by a real execution or by external sources. FCs are built with the existing Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012])) and run with the existing [xAFCL](https://github.com/sashkoristov/enactmentengine) enactment engine.|
 |Tasks| 1. Compose / adapt a few real-life applications as FCs.<br> 2. Execute the composed FCs across multiple FaaS providers Log and trace the real FC execution.<br> 3. Develop a common interface AFCL -> Intermediary representation -> Scheduler (e.g., list-based) -> Intermediary representation -> Concrete Function Choreography Language (CFCL).<br> 4. Visualize the tracing.<br> 5. Evaluate various schedulers (cost/performance) with real execution.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
