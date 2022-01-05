@@ -105,11 +105,11 @@ Will be published soon!
 
 # Closed bachelor theses
 
-1. "*fService*: Configurable abstraction for serverless development", Benjamin Hackstock. WS2021. [details](./fService.md).
+1. "*fService*: Configurable abstraction for serverless development", Benjamin Hackstock. WS2021. [details](./closed/fService.md).
 1. "*xAFCLTrace* scheduling and tracing framework", Philipp Gritsch. WS2021. [details](./xAFCLTrace.md).
-1. "*aSync xAFCL EE*: Asynchronous enactment of FCs across multiple FaaS systems", Stefan Kotrba. WS2021. [details](./asyncxAFCL.md).
-1. "*xAFCLSim* simulation framework", Mika Hautz. WS2021. [details](./xAFCLSim.md).
-1. "A learning-based simulation framework for volatile cloud resources", Johannes Spies, Simon Triendl. SS2021. [details](./volatilesimx.md).
+1. "*aSync xAFCL EE*: Asynchronous enactment of FCs across multiple FaaS systems", Stefan Kotrba. WS2021. [details](./closed/asyncxAFCL.md).
+1. "*xAFCLSim* simulation framework", Mika Hautz. WS2021. [details](./closed/xAFCLSim.md).
+1. "A learning-based simulation framework for volatile cloud resources", Johannes Spies, Simon Triendl. SS2021. [details](./closed/volatilesimx.md).
 1. "G2GA: Portable execution of workflows in Google Cloud Functions across multiple FaaS platforms", Anna Kapeller, Felix Petschko. SS2021.
 1. "Decoupled Automatic Deployment of AFCL Workflows", Caroline Haller, Christoph Abenthung. SS2021.
 1. "Establishing Virtual Networks in Amazon Web Services", Hüseyin Gündogan, WS2020.
