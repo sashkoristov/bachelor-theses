@@ -1,7 +1,7 @@
 # Bachelor theses (Supervisor: Sashko Ristov)
 A repository for available, active and closed topics for bachelor theses in the context of the class “Seminar mit Bachelorarbeit”. Supervisor - Sashko Ristov.
 
-As a result of several bachelor and master theses that I supervised, we have developed a prototype of the *xAFCL* enactment engine, which is able to run serverless workflows or function choreographies (*FCs*) across many widely-known cloud providers. *xAFCL EE* integrates the component [FTjFaaS](https://github.com/sashkoristov/FTjFaaS) for optional fault tolerant execution of FC functions (currently supported AWS Lambda and IBM Cloud Functions) and [jFaaS](https://github.com/sashkoristov/jFaaS/) for portable execution across many FaaS systems (AWS Lambda, IBM Cloud Functions, Google Cloud Functions, Alibaba Function Compute, Microsoft Azure Cloud Functions, etc).
+As a result of several bachelor and master theses that I supervised, we have developed a prototype of the *xAFCL* enactment engine [*xAFCL EE*](https://doi.org/10.1109/TSC.2021.3128137), which is able to run serverless workflows or function choreographies (*FCs*) across many widely-known cloud providers. *xAFCL EE* integrates the component [FTjFaaS](https://github.com/sashkoristov/FTjFaaS) for optional fault tolerant execution of FC functions (currently supported AWS Lambda and IBM Cloud Functions) and [jFaaS](https://github.com/sashkoristov/jFaaS/) for portable execution across many FaaS systems (AWS Lambda, IBM Cloud Functions, Google Cloud Functions, Alibaba Function Compute, Microsoft Azure Cloud Functions, etc).
 
 *xAFCL EE* is the core part of the [AFCL Environment](https://github.com/sashkoristov/AFCLEnvironment), a platform to develop, deploy, and fault tolerant execution of FCs developed in our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)).
 
@@ -34,7 +34,22 @@ Will be published soon!
 
 ----
 
-# Recently started bachelor theses (SS2021)
+# Recently started bachelor theses (SS2022)
+
+## *portableGo*
+
+| Title | **portableGo: Portable development and deployment of Go functions in serverless workflows** |
+| ----- | ----- | 
+| Student | Simon Brandacher | 
+| Status | Requirements analysis | 
+| Description |  *portableGo* will be implemented to support serverless functions developed in Golang and storage services from multiple cloud providers (e.g., AWS, Google, etc). Furthermore, *portableGo* will offer automatic deployment on multiple clouds from a single developed function locally. Finally, *portableGo* will be integrated with AFCL workflows to deploy each function of a workflow to the specified location (FaaS provider, cloud region, and assigned memory.)
+|Tasks| 1. Define interfaces and methods for various cloud storages. For instance, copyFile(sourceURL, destinationURL). <br> 2. Develop implementations of interfaces for various cloud providers (e.g., AWS, Google, etc) in Golang. <br> 3. Build portable FCs for a real-life application with dynamic inputs of functions to specify the specific storages that they use.<br> 4. Develop an automatic deployer.<br> 5. Integrate with AFCL.<br> 6. Evaluate the system with real life applications.|
+| Theoretical skills | Cloud Computing, Serverless. | 
+| Practical skills | Golang, Cloud APIs.|
+---
+
+
+# Active bachelor theses
 
 ## *pyStorage*
 
@@ -54,7 +69,7 @@ Will be published soon!
 | Title | ***jContainer*: Portable execution of FCs across multiple container systems** |
 | ----- | ----- | 
 | Students | David Baumgartner and Albert Neuner | 
-| Status | Evalluation | 
+| Status | Evaluation | 
 | Description | All widely-known FaaS systems set up many design limitations (e.g., code size or memory assignment) and runtime limitations (e.g., size of input / output data, function duration, or hard disk size). The goal of this thesis is to develop a portable `jContainer` tool, which allows portable execution of FCs in multiple container systems, e.g., AWS Fargate or ECS.
 |Tasks| 1. Develop a `jContainer` for multiple container systems.<br> 2. Integrate `jContainer` in *xAFCL EE*.<br> 3. Automatic container development and deployment of containers for multiple providers.<br> 4. Compose / adapt a real-life application that uses multiple cloud services.<br> 5. Evaluate `jContainer` with the real-life serverless applications across multiple container systems.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Virtualization | 
@@ -79,7 +94,7 @@ Will be published soon!
 | Title | ***jFCfier*: Portable Java *FCfier*** |
 | ----- | ----- | 
 | Students | David Freina and Jonas Wagner | 
-| Status | Evalluation | 
+| Status | Evaluation | 
 | Description |  The goal of this thesis is to develop a portable Java FCfier (*jFCfier*), which allows the FC developer to annotate the target FaaS system per serverless function, faasifies parts of the Java monolith as serverless functions across multiple FaaS systems, updates the offloaded code with the corresponding API calls, converts Java monoliths as FCs, and evaluate their scalability. It is recommended to use the same annotation from our DAF tool (see our paper in the references).|
 |Tentative tasks| 1. Develop a Java FCfier (*jFCfier*) for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Java for FaaSification.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *jFCfier* with real-life serverless applications.|
 | Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
