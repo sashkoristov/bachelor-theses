@@ -77,7 +77,7 @@ The following topics for bachelor theses are available for the summer semester 2
 |Tasks| 1. Research parameters that can be used to define SLOs ranges and thresholds including parameters of functions, time periods, FC, cloud providers and their regions, etc.<br> 2. Develop interfaces with AFCL metadata DB.<br> 3. Develop / adapt monitoring for SLOs.<br> 4. Develop an AFCL adaptor that will adapt resource FDs and alternatives.<br> 5. Visualize SLO parameters.<br> 6. Evaluate *SL-AFCL* with the real-life FC and specific scenarios that try to breach SLOs.|
 | Theoretical skills | Cloud Computing, Serverless, AFCL, fault tolerance. | 
 | Practical skills | Algorithms, Cloud APIs.|
-
+| Related work | 1. [Google SRE](https://sre.google/)
 
 # Recently started bachelor theses (SS2022)
 
@@ -134,20 +134,6 @@ The following topics for bachelor theses are available for the summer semester 2
 ---
 
 
-## *jFCfier* 
-
-| Title | ***jFCfier*: Portable Java *FCfier*** |
-| ----- | ----- | 
-| Students | David Freina and Jonas Wagner | 
-| Status | Evaluation | 
-| Description |  The goal of this thesis is to develop a portable Java FCfier (*jFCfier*), which allows the FC developer to annotate the target FaaS system per serverless function, faasifies parts of the Java monolith as serverless functions across multiple FaaS systems, updates the offloaded code with the corresponding API calls, converts Java monoliths as FCs, and evaluate their scalability. It is recommended to use the same annotation from our DAF tool (see our paper in the references).|
-|Tentative tasks| 1. Develop a Java FCfier (*jFCfier*) for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Java for FaaSification.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *jFCfier* with real-life serverless applications.|
-| Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
-|Practical skills | Java, Cloud APIs.||
----
-
-
-
 ## *pyFCfier*
 
 | Title | ***pyFCfier*: Portable Python FCifier** |
@@ -165,6 +151,7 @@ The following topics for bachelor theses are available for the summer semester 2
 
 # Closed bachelor theses
 
+1. "*jFCfier*: Portable Java *FCfier*", David Freina and Jonas Wagner. WS2021. [details](./closed/jFCfier.md).
 1. "*fService*: Configurable abstraction for serverless development", Benjamin Hackstock. WS2021. [details](./closed/fService.md).
 1. "*xAFCLTrace* scheduling and tracing framework", Philipp Gritsch. WS2021. [details](./closed/xAFCLTrace.md).
 1. "*aSync xAFCL EE*: Asynchronous enactment of FCs across multiple FaaS systems", Stefan Kotrba. WS2021. [details](./closed/asyncxAFCL.md).
