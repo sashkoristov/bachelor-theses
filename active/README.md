@@ -1,1 +1,22 @@
-Mor information will come soon. In the mean time, you can visit our DPS web [page](http://dps.uibk.ac.at/current-theses/).
+# Active bachelor theses
+
+## Started in SS2022
+
+1. "*xAFCLSim2*: Simulation of serverless workflows in AFCL with dependent functions", Marcel Huber and Matthias Thalmann. [details](./xAFCLSim2.md).
+1. "*pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers", Serafin Plattner [details](./pyfOps.md).
+1. "*jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers", Thomas Pregenzer and Tobias Hosp [details](./jfOps.md).
+1. "*testOps*: A pipeline for one-touch non-functional testing of serverless functions across multiple providers", Thomas Zangerl [details](./testOps.md).
+---
+
+## Started in WS2021
+
+1. "*portableGo*: Portable development and deployment of Go functions in serverless workflows", Simon Brandacher [details](./portableGo.md).
+1. "*pyStorage*: Agile development and optimized execution of data-intensive serverless workflows", Isabella Schmut and Peter Koll. [details](./pyStorage.md).
+---
+
+## Started in SS2021
+
+1. "*xAFCL* Data-Flow", Andreas Reheis. [details](./xAFCLDataFlow.md).
+1. "*pyFCfier*: Portable Python FCifier", Mark Nardi. [details](./pyFCfier.md).
+---
+

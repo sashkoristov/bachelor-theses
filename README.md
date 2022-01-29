@@ -60,13 +60,14 @@ The following topics for bachelor theses are available for the summer semester 2
 
 ## *fServiceX*
 
-| Title | ***fServiceX*: Agile development of serverless applications with abstract cloud services** |
+| Title | ***fServiceX*: Agile development and dynamic setup of serverless applications with abstract cloud services** |
 | - | - | 
 | Students | one or two | 
 | Description | Development of serverless functions that use multiple cloud services is a complex task as it may require huge development effort to integrate various libraries for each cloud service that the function uses. Recently, I supervised the bachelor thesis *fService: Configurable abstraction for serverless development* in which we established the main abstraction of cloud services through abstraction of AWS's and Google's storages and object recognition cloud services for java serverless functions. The library can be added as Maven dependency in Java functions. Further on, two other bachelor theses are active (*pyStorage* and *portableGo*), which extend the concept of *fService* for abstract storage in Python and Go. This bachelor thesis extends *fService* to support various programming languages (e.g., Java, node.js, Python, etc.) and various cloud services (e.g., storage, object recognition, prediction, speech2text, text2speech, etc) of multiple cloud providers (e.g., AWS, Google, etc). Heuristics may be added to determine which specific cloud service to be used (e.g., Amazon Transcribe or Google SpeechtoText) based on the storage location of the audio file. 
 |Tasks| 1. Define interfaces and methods for the selected cloud storages. For instance, copy(sourceURL, destURL), voice2text(sourceAudio, destText).<br> 2. Develop implementations of interfaces for various cloud providers (e.g., AWS, Google, etc) and their abstracted services in selected programming language(s). <br> 3. Build portable function choreography (*FC*) for a real-life application with dynamic inputs of serverless functions to specify the specific cloud service that they use (e.g. location of the input audio files).<br> 4. (if two students) Develop a model for portable cloud services used by FC functions.<br> 5. (if two students) Based on the model, develop a scheduler that updates the FC (function deployments and service deployments as data inputs).<br> 6. Evaluate the system with the developed FC and optimal selection of the proper cloud service.|
 | Theoretical skills | Cloud Computing, Serverless. | 
 | Practical skills | programming languages; Cloud APIs.|
+| Related work| 1. B. Hackstock, "fService: Configurable abstraction for serverless development", Bachelor thesis, WS2021. |
 
 ---
 
@@ -83,58 +84,61 @@ The following topics for bachelor theses are available for the summer semester 2
 
 # Recently started bachelor theses (SS2022)
 
+Details for active bachelor theses can be found [here](./active/README.md).
+
+
+## *xAFCLSim2*
+
+| Title | ***xAFCLSim2*: Simulation of serverless workflows in AFCL with dependent functions** (Tentative) |
+| ----- | ----- | 
+| Students | Marcel Huber and Matthias Thalmann | 
+| Status | Requirements analysis | 
+| Description |  Running highly scalable FCs may be a long running and costly operation. Recently, I supervised the bachelor thesis "*xAFCLSim* simulation framework" in which the initial version of the xAFCL simulator was integrated in xAFCL enactment engine, which assumes compute intensive serverless functions. The goal of this bachelor thesis is to develop *xAFCLSim2* simulation framework, which will support simulation of serverless functions that use cloud services (e.g., cloud storage), which can be dynamically selected as input to the functions. A dynamism will be added based on some known distributions. FCs are built with the existing [Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)) and run with the existing *xAFCL* enactment engine ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)), in which *xAFCLSim2* will be integrated into. *xAFCLSim2* will be evaluated with real life functions for various FaaS providers and abstracted cloud services. The main target will be to simulate the round trip time of, for instance, a serverless function that runs in AWS Frankfurt and downloads the input file from AWS S3 Tokyo and stores the output file in Google Cloud Storage in Belgium if we have executed the same function implementation on any AWS region (not on another provider) with any storage location for input and output files (even on Google storage).
+---
+
+
 ## *pyfOps*
 
-| Title | ***pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers** |
+| Title | ***pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers** (Tentative)|
 | ----- | ----- | 
-| Student | one | 
+| Student | Serafin Plattner | 
+| Status | Requirements analysis | 
 | Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Python serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Python locally only once (*function template*) and after pushing the code on git (eg. github), *pyfOps* pipeline will conduct a series of actions. First, *pyfOps* will encapsulate the code (*function implementation* - *FI*) for each supported FaaS provider. Second, *pyfOps* will deploy the python code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the Python code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *pyfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *pyfOps* may consider to deploy multiple functions from a single code with multiple handlers. *pyfOps* will be evaluated with a real life workflow for various FaaS providers.
-|Tasks| 1. Develop a module for pipeline scripts. <br> 2. Develop wrappers for serverless function handlers for the Python code for various FaaS providers (e.g. AWS, IBM, Google, etc). <br> 3. Develop interfaces with AFCL metadata DB. <br> 4. Develop an automatic deployer for various FaaS providers (e.g. AWS, IBM, Google, etc).<br> 5. Evaluate *pyfOps* with real life applications.|
-| Theoretical skills | Cloud Computing, Serverless. | 
-| Practical skills | Python, Cloud APIs, git.|
-| Related work | 1. 3. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF). This tools can be used for wrappers and deployment scripts for various programming languages and FaaS providers. <br> 2. (`Node.js FaaSifier`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 3. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 4. (`Automatic function deployment`) [Serverless](https://www.serverless.com/).<br>  5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).|
+
 ---
 
 ## *jfOps*
 
-| Title | ***jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers** |
+| Title | ***jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers** (Tentative) |
 | ----- | ----- | 
-| Students | two | 
+| Students | Thomas Pregenzer and Tobias Hosp | 
+| Status | Requirements analysis | 
 | Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Java serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Java locally only once (*function template*) and after pushing the code on git (eg. github), *jfOps* pipeline will conduct a series of actions. First, *jfOps* will encapsulate the Java code (*function implementation* - *FI*) for each supported FaaS provider. Second, *jfOps* will deploy the code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *jfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *jfOps* may consider to deploy multiple functions from a single code with multiple handlers. *jfOps* will be evaluated with a real life workflow for various FaaS providers.
-|Tasks| 1. Develop a module for pipeline scripts. <br> 2. Develop wrappers for serverless function handlers for the Java code for various FaaS providers (e.g. AWS, IBM, Google, etc). <br> 3. Develop interfaces with AFCL metadata DB. <br> 4. Develop an automatic deployer for various FaaS providers (e.g. AWS, IBM, Google, etc).<br> 5. Evaluate *jfOps* with real life applications.|
-| Theoretical skills | Cloud Computing, Serverless. | 
-| Practical skills | Programming languages, Cloud APIs, git.|
-| Related work | 1. 3. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF). This tools can be used for wrappers and deployment scripts for various programming languages and FaaS providers. <br> 2. (`Node.js FaaSifier`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 3. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 4. (`Automatic function deployment`) [Serverless](https://www.serverless.com/).<br>  5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).<br> 6. "*jFCfier*: Portable Java *FCfier*", David Freina and Jonas Wagner, Bachelor thesis. WS2021. [details](./closed/jFCfier.md)|
 ---
 
 
 ## *testOps*
 
-| Title | ***testOps*: A pipeline for one-touch non-functional testing of serverless functions across multiple providers** |
+| Title | ***testOps*: A pipeline for one-touch non-functional testing of serverless functions across multiple providers** (Tentative) |
 | ----- | ----- | 
-| Student | one | 
+| Student | Thomas Zangerl | 
+| Status | Requirements analysis | 
 | Description |  The goal of this bachelor thesis is to develop an automation pipeline for non-functinoal testing of serverless functions and infrastructure across multiple providers. The main objective is to minimize the effort and automatize the language-agnostic testing of arbitrary function implementations (*FIs*), or the deployment packages for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, and Alibaba). The Ops engineer needs to deploy the deployment package (jar or zip) for each specified *function deployment* - *FD* in the test plan, which may include deploy the package on various cloud regions and run the code with some predefined various performance parameters (RTT, ET, concurrency limitations, various cloud services abstracted with fService) and store the measured parameters in the existing AFCL metadata database for all FDs. *testOps* will evaluate serverless infrastructures with "no-op" functions and real life functions for various FaaS providers and abstracted cloud services with fService.
-|Tasks| 1. Develop a module for pipeline scripts. <br> 2. Define input and non-functional test specification. <br> 3. Develop interfaces with AFCL metadata DB. <br> 4. Develop an automatic deployer from a single FI to multiple FDs.<br> 5. Transform test specification into AFCL serverless workflow to measure performance parameters of functions <br> 6. Evaluate *testOps* with real life functions.|
-| Theoretical skills | Cloud Computing, Serverless. | 
-| Practical skills | Cloud APIs, git.|
-| Related work | 1. 3. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF). This tools can be used for wrappers and deployment scripts for various programming languages and FaaS providers. <br> 2. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 3. (`Automatic function deployment`) [Serverless](https://www.serverless.com/).<br>  4. (`Node2FaaS Framework`) [Node2FaaS](https://github.com/node2faas/framework).<br> 5. ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)) S. Ristov, S. Pedratscher, T. Fahringer, “xAFCL: Run scalable function choreographies across multiple FaaS systems,” in *IEEE Transactions on Services Computing*, pp. 1–1, 2021. ([doi](https://doi.org/10.1109/TSC.2021.3128137))<br> 6. S. Ristov, S. Pedratscher, T. Fahringer, "AFCL: An Abstract Function Choreography Language for serverless workflow specification", in *Elsevier Future Generation Computer Systems*, vol. 114, pp. 368-382, 2021. ([doi](https://doi.org/10.1016/j.future.2020.08.012))|
 ---
-
 
 ## *portableGo*
 
 | Title | ***portableGo*: Portable development and deployment of Go functions in serverless workflows** |
 | ----- | ----- | 
 | Student | Simon Brandacher | 
-| Status | Requirements analysis | 
+| Status | Development | 
 | Description |  *portableGo* will be implemented to support serverless functions developed in Golang and storage services from multiple cloud providers (e.g., AWS, Google, etc). Furthermore, *portableGo* will offer automatic deployment on multiple clouds from a single developed function locally. Finally, *portableGo* will be integrated with AFCL workflows to deploy each function of a workflow to the specified location (FaaS provider, cloud region, and assigned memory.)
-|Tasks| 1. Define interfaces and methods for various cloud storages. For instance, copyFile(sourceURL, destinationURL). <br> 2. Develop implementations of interfaces for various cloud providers (e.g., AWS, Google, etc) in Golang. <br> 3. Build portable FCs for a real-life application with dynamic inputs of functions to specify the specific storages that they use.<br> 4. Develop an automatic deployer.<br> 5. Integrate with AFCL.<br> 6. Evaluate the system with real life applications.|
-| Theoretical skills | Cloud Computing, Serverless. | 
-| Practical skills | Golang, Cloud APIs.|
 ---
 
 
 # Active bachelor theses
+
+Details for active bachelor theses can be found [here](./active/README.md).
 
 ## *pyStorage*
 
@@ -143,22 +147,6 @@ The following topics for bachelor theses are available for the summer semester 2
 | Students | Isabella Schmut and Peter Koll | 
 | Status | Evaluation | 
 | Description |  Development of serverless functions that use multiple cloud services is a complex task as it may require a huge development effort to integrate various libraries for each cloud service that the function uses. This thesis explores how to model cloud service types that a function uses in order to abstract them and offer a single interface for specific service type. *pyStorage* will be implemented to support serverless functions developed in Python programming languages and cloud storages of multiple cloud providers (e.g., AWS, Google, etc). 
-|Tasks| 1. Define interfaces and methods for various cloud storages. For instance, uploadFile(bucket), downloadFile(bucket). <br> 2. Develop implementations of interfaces for various cloud providers (e.g., AWS, Google, etc) in Python. <br> 3. Build portable FCs for a real-life application with dynamic inputs of functions to specify the specific storages that they use.<br> 4. Develop a model for portable cloud storages used by FC functions.<br> 5. Based on the model, develop a scheduler that updates the FC (function deployments and service deployments as data inputs).<br> 6. Evaluate the system with real life applications and optimal selection of the proper cloud storage.|
-| Theoretical skills | Cloud Computing, Serverless. | 
-| Practical skills | Python, Cloud APIs.||
----
-
-## *jContainer* 
-
-
-| Title | ***jContainer*: Portable execution of FCs across multiple container systems** |
-| ----- | ----- | 
-| Students | David Baumgartner and Albert Neuner | 
-| Status | Finalizing bachelor thesis | 
-| Description | All widely-known FaaS systems set up many design limitations (e.g., code size or memory assignment) and runtime limitations (e.g., size of input / output data, function duration, or hard disk size). The goal of this thesis is to develop a portable `jContainer` tool, which allows portable execution of FCs in multiple container systems, e.g., AWS Fargate or ECS.
-|Tasks| 1. Develop a `jContainer` for multiple container systems.<br> 2. Integrate `jContainer` in *xAFCL EE*.<br> 3. Automatic container development and deployment of containers for multiple providers.<br> 4. Compose / adapt a real-life application that uses multiple cloud services.<br> 5. Evaluate `jContainer` with the real-life serverless applications across multiple container systems.|
-| Theoretical skills |  Distributed Systems, Cloud Computing, Virtualization | 
-| Practical skills | Java (or Python, Node.js), Cloud APIs, Container Systems.||
 ---
 
 ## *xAFCL* Data-Flow
@@ -168,9 +156,6 @@ The following topics for bachelor theses are available for the summer semester 2
 | Student | Andreas Reheis | 
 | Status | Development | 
 | Description | The goal of this thesis is to facilitate the development of FCs with data-flow between abstract function types. After development, the system will convert the abstract into concrete data-flow during runtime.|
-|Tasks| 1. Graphical development of FC data-flow considering data ports interoperbility and integration with AFCL meta-data database.<br> 2. Convert abstract to concrete data-flow.<br> 3. Data-flow managament (e.g., merge data inputs/outputs, passing data, sub-objects, super-objects, DAG-based data-flow, data-flow through compound functions, ...).<br> 4. Automatic generation of AFCL/CFCL code.<br> 5. Evaluate the converted data-flow with a representative FC.|
-| Theoretical skills |  Distributed Systems, Cloud Computing, Serverless, AFCL | 
-|Practical skills | Java ||
 ---
 
 
@@ -181,16 +166,14 @@ The following topics for bachelor theses are available for the summer semester 2
 | Student | Mark Nardi | 
 | Status | Finalizing bachelor thesis | 
 | Description |  The goal of this thesis is to develop a portable Python FCfier (*pyFCfier*), which allows the FC developer to select the target FaaS system per serverless function, faasifies parts of the monolith as serverless fynctions across multiple FaaS systems, updates the offloaded code with the corresponding API calls converts Python monoliths as FCs and evaluate their scalability.|
-|Tasks| 1. Develop a Python FCifier *pyFCfier* for multiple FaaS systems.<br> 2. Compose / adapt a monolith that uses multiple cloud services.<br> 3. Code annotation (per line) in Python to be FaaSified.<br> 4. Automatic package development and serverless function deployment of the faasified code.<br> 5. Evaluate the *pyFCfier* with real-life serverless applications.|
-| Theoretical skills |  Distributed Systems, Cloud Computing, Serverless | 
-|Practical skills | Python.||
-
+---
 
 <!-- Details for active bachelor theses can be found [here](./active/README.md). -->
 
 
 # Closed bachelor theses
 
+1. "*jContainer*: Portable execution of FCs across multiple container systems", David Baumgartner and Albert Neuner. WS2021. [details](./closed/jContainer.md).
 1. "*jFCfier*: Portable Java *FCfier*", David Freina and Jonas Wagner. WS2021. [details](./closed/jFCfier.md).
 1. "*fService*: Configurable abstraction for serverless development", Benjamin Hackstock. WS2021. [details](./closed/fService.md).
 1. "*xAFCLTrace* scheduling and tracing framework", Philipp Gritsch. WS2021. [details](./closed/xAFCLTrace.md).
@@ -222,4 +205,4 @@ Details for closed bachelor theses can be found [here](./closed/README.md).
 
 If you need any additional information, please do not hesitate to contact me on e-mail.
 
-My topics for master theses may be found [here](https://github.com/sashkoristov/master-theses).
+My topics for master theses may be found [here](https://github.com/sashkoristov/master-theses), , which could also adapted as bachelor theses.

@@ -2,7 +2,7 @@
 
 ## Closed in WS2021
 
-1. "*jFCfier*: Portable Java *FCfier*", David Freina and Jonas Wagner. [details](./closed/jFCfier.md).
+1. "*jFCfier*: Portable Java *FCfier*", David Freina and Jonas Wagner. [details](./jFCfier.md).
 1. "*fService*: Configurable abstraction for serverless development", Benjamin Hackstock. [details](./fService.md).
 1. "*xAFCLTrace* scheduling and tracing framework", Philipp Gritsch. [details](./xAFCLTrace.md).
 1. "*aSync xAFCL EE*: Asynchronous enactment of FCs across multiple FaaS systems", Stefan Kotrba. [details](./asyncxAFCL.md).
