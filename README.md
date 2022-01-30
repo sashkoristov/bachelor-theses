@@ -32,6 +32,31 @@ Topics are inintially intended for a single student, but each topic can be adapt
 The following topics for bachelor theses are available for the summer semester 2022:
 
 
+
+## *CardioAFCL*
+
+| Title | ***CardioAFCL*: Simulation of serverless real-time monitoring centre with AFCL workflows** |
+| ----- | ----- | 
+| Students | one (can be merged with CardioStream for a group of two students) | 
+| Description | The goal of this bachelor thesis is to develop real-time monitoring centre of patients' sensor data using batch processing approach with AFCL. Simulation of real-time monitoring centre includes experiment setup, simulation, and evaluation phases. The set of actions should be performed in a form of an AFCL serverless workflow or function choreography (*FC*) after upload of patients' data. This includes serverless functions for noise intervals identification and elimination, heartbeat detection, detection of fibrillation, identification of segments and elevation, heart rate variability, statistical analysis, alerting, and reporting. A generator of a virtual patient ECG will be developed to simulate generated files. The evaluation metrics will include measuring of response times for different test cases varying the workload (e.g., from 1K to 20K virtual patients ECG data simultaneously and their length). The experiment will be executed with the existing *xAFCL* enactment engine ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)). The target is to measure speedup and throughput versus the number of cloud regions (<3 sec).
+|Tasks| 1. Develop serverless functions. <br> 2. Develop AFCL FC that distributed the work.<br> 3. Evaluate *CardioAFCL* with various workload (weak and strong scaling).|
+| Theoretical skills | Cloud Computing, Serverless, file management, ECG data management (existing libraries). | 
+| Practical skills | FaaS, Cloud API.|
+| Related work | Will be given |
+---
+
+## *CardioStream*
+
+| Title | ***CardioStream*: Simulation of serverless real-time monitoring centre with streaming** |
+| ----- | ----- | 
+| Students | one (can be merged with CardioAFC for a group of two students) | 
+| Description | The goal of this bachelor thesis is to develop real-time monitoring centre of patients' sensor data with streaming. Simulation of real-time monitoring centre includes experiment setup, simulation, and evaluation phases. The set of actions should be performed in a form of event-based actions of the cloud provider (e.g., AWS) after streaming the patients' data. This includes serverless functions for noise intervals identification and elimination, heartbeat detection, detection of fibrillation, identification of segments and elevation, heart rate variability, statistical analysis, alerting, and reporting. A generator of a virtual patient ECG will be developed to simulate data streaming as input in the simulation experiment. The evaluation metrics will include measuring of response times for different test cases varying the workload (e.g., from 1K to 20K virtual patients ECG data simultaneously and their length). The experiment will be executed. The target is to measure speedup and throughput for various workload.
+|Tasks| 1. Develop serverless functions. <br> 2. Develop the event-based pipeline.<br> 3. Evaluate *CardioStream* with various workload (weak and strong scaling).|
+| Theoretical skills | Cloud Computing, Serverless, file management, ECG data management (existing libraries). | 
+| Practical skills | FaaS, Cloud API.|
+| Related work | Will be given |
+---
+
 ## *fOps*
 
 | Title | ***fOps*: A pipeline for one-touch development, deployment, and testing of serverless functions across multiple providers** |
@@ -41,7 +66,7 @@ The following topics for bachelor theses are available for the summer semester 2
 |Tasks| 1. Develop a module for pipeline scripts. <br> 2. Develop wrappers for serverless function handlers for the selected programming language for various FaaS providers (e.g. AWS, IBM, Google, etc). <br> 3. Develop interfaces with AFCL metadata DB. <br> 4. Develop an automatic deployer for various FaaS providers (e.g. AWS, IBM, Google, etc).<br> 5. Evaluate *fOps* with real life applications.|
 | Theoretical skills | Cloud Computing, Serverless. | 
 | Practical skills | Programming languages, Cloud APIs, git.|
-| Related work | 1. 3. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF). This tools can be used for wrappers and deployment scripts for various programming languages and FaaS providers. <br> 2. (`Node.js FaaSifier`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 3. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 4. (`Automatic function deployment`) [Serverless](https://www.serverless.com/).<br>  5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).|
+| Related work | 1. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF). This tools can be used for wrappers and deployment scripts for various programming languages and FaaS providers. <br> 2. (`Node.js FaaSifier`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 3. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 4. (`Automatic function deployment`) [Serverless](https://www.serverless.com/).<br>  5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).|
 ---
 
 <!--
