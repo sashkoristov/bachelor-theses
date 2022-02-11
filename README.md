@@ -33,18 +33,6 @@ The following topics for bachelor theses are available for the summer semester 2
 
 
 
-## *CardioAFCL*
-
-| Title | ***CardioAFCL*: Simulation of serverless real-time monitoring centre with AFCL workflows** |
-| ----- | ----- | 
-| Students | one (can be merged with CardioStream for a group of two students) | 
-| Description | The goal of this bachelor thesis is to develop real-time monitoring centre of patients' sensor data using batch processing approach with AFCL. Simulation of real-time monitoring centre includes experiment setup, simulation, and evaluation phases. The set of actions should be performed in a form of an AFCL serverless workflow or function choreography (*FC*) after upload of patients' data. This includes serverless functions for noise intervals identification and elimination, heartbeat detection, detection of fibrillation, identification of segments and elevation, heart rate variability, statistical analysis, alerting, and reporting. A generator of a virtual patient ECG will be developed to simulate generated files. The evaluation metrics will include measuring of response times for different test cases varying the workload (e.g., from 1K to 20K virtual patients ECG data simultaneously and their length). The experiment will be executed with the existing *xAFCL* enactment engine ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)). The target is to measure speedup and throughput versus the number of cloud regions (<3 sec).
-|Tasks| 1. Develop serverless functions. <br> 2. Develop AFCL FC that distributed the work.<br> 3. Evaluate *CardioAFCL* with various workload (weak and strong scaling).|
-| Theoretical skills | Cloud Computing, Serverless, file management, ECG data management (existing libraries). | 
-| Practical skills | FaaS, Cloud API.|
-| Related work | Will be given |
----
-
 ## *CardioStream*
 
 | Title | ***CardioStream*: Simulation of serverless real-time monitoring centre with streaming** |
@@ -62,7 +50,7 @@ The following topics for bachelor theses are available for the summer semester 2
 | Title | ***fOps*: A pipeline for one-touch development, deployment, and testing of serverless functions across multiple providers** |
 | ----- | ----- | 
 | Students | one or two | 
-| Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function locally only once (*function template*) and after pushing the code on git (eg. github), *fOps* pipeline will conduct a series of actions. First, *fOps* will encapsulate the code (*function implementation* - *FI*) for the selected programming language (e.g., Node.js, Go) for each supported FaaS provider. Second, *fOps* will deploy the code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *fOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FDs. *fOps* may consider to deploy multiple functions from a single code with multiple handlers. *fOps* will be evaluated with a real life workflow for various FaaS providers.
+| Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function locally only once (*function template*) and after pushing the code on git (eg. github), *fOps* pipeline will conduct a series of actions. First, *fOps* will encapsulate the code (*function implementation* - *FI*) for the selected programming language (e.g., Node.js, Go) for each supported FaaS provider. Second, *fOps* will deploy the code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *fOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FDs. *fOps* may consider to deploy multiple functions from a single code with multiple handlers and functions may be developed with fService and then also tests should check if the function may use all enumerated services. *fOps* will be evaluated with a real life workflow for various FaaS providers.
 |Tasks| 1. Develop a module for pipeline scripts. <br> 2. Develop wrappers for serverless function handlers for the selected programming language for various FaaS providers (e.g. AWS, IBM, Google, etc). <br> 3. Develop interfaces with AFCL metadata DB. <br> 4. Develop an automatic deployer for various FaaS providers (e.g. AWS, IBM, Google, etc).<br> 5. Evaluate *fOps* with real life applications.|
 | Theoretical skills | Cloud Computing, Serverless. | 
 | Practical skills | Programming languages, Cloud APIs, git.|
@@ -111,6 +99,14 @@ The following topics for bachelor theses are available for the summer semester 2
 
 Details for active bachelor theses can be found [here](./active/README.md).
 
+## *CardioAFCL*
+
+| Title | ***CardioAFCL*: Simulation of serverless real-time monitoring centre with AFCL workflows** |
+| ----- | ----- | 
+| Student | Katrin Antholzer | 
+| Status | Requirements analysis | 
+| Description | The goal of this bachelor thesis is to develop real-time monitoring centre of patients' sensor data using batch processing approach with AFCL. Simulation of real-time monitoring centre includes experiment setup, simulation, and evaluation phases. The set of actions should be performed in a form of an AFCL serverless workflow or function choreography (*FC*) after upload of patients' data. This includes serverless functions for noise intervals identification and elimination, heartbeat detection, detection of fibrillation, identification of segments and elevation, heart rate variability, statistical analysis, alerting, and reporting. A generator of a virtual patient ECG will be developed to simulate generated files. The evaluation metrics will include measuring of response times for different test cases varying the workload (e.g., from 1K to 20K virtual patients ECG data simultaneously and their length). The experiment will be executed with the existing *xAFCL* enactment engine ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)). The target is to measure speedup and throughput versus the number of cloud regions (<3 sec).
+---
 
 ## *xAFCLSim2*
 
@@ -128,7 +124,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | ----- | ----- | 
 | Student | Serafin Plattner | 
 | Status | Requirements analysis | 
-| Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Python serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Python locally only once (*function template*) and after pushing the code on git (eg. github), *pyfOps* pipeline will conduct a series of actions. First, *pyfOps* will encapsulate the code (*function implementation* - *FI*) for each supported FaaS provider. Second, *pyfOps* will deploy the python code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the Python code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *pyfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *pyfOps* may consider to deploy multiple functions from a single code with multiple handlers. *pyfOps* will be evaluated with a real life workflow for various FaaS providers.
+| Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Python serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Python locally only once (*function template*) and after pushing the code on git (eg. github), *pyfOps* pipeline will conduct a series of actions. First, *pyfOps* will encapsulate the code (*function implementation* - *FI*) for each supported FaaS provider. Second, *pyfOps* will deploy the python code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the Python code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *pyfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *pyfOps* may consider to deploy multiple functions from a single code with multiple handlers and functions may be developed with fService and then also tests should check if the function may use all enumerated services. *pyfOps* will be evaluated with a real life workflow for various FaaS providers.
 
 ---
 
@@ -138,7 +134,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | ----- | ----- | 
 | Students | Thomas Pregenzer and Tobias Hosp | 
 | Status | Requirements analysis | 
-| Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Java serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Java locally only once (*function template*) and after pushing the code on git (eg. github), *jfOps* pipeline will conduct a series of actions. First, *jfOps* will encapsulate the Java code (*function implementation* - *FI*) for each supported FaaS provider. Second, *jfOps* will deploy the code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *jfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *jfOps* may consider to deploy multiple functions from a single code with multiple handlers. *jfOps* will be evaluated with a real life workflow for various FaaS providers.
+| Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Java serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Java locally only once (*function template*) and after pushing the code on git (eg. github), *jfOps* pipeline will conduct a series of actions. First, *jfOps* will encapsulate the Java code (*function implementation* - *FI*) for each supported FaaS provider. Second, *jfOps* will deploy the code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *jfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *jfOps* may consider to deploy multiple functions from a single code with multiple handlers and functions may be developed with fService and then also tests should check if the function may use all enumerated services. *jfOps* will be evaluated with a real life workflow for various FaaS providers.
 ---
 
 
@@ -170,7 +166,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | ***pyStorage*: Agile development and optimized execution of data-intensive serverless workflows** |
 | ----- | ----- | 
 | Students | Isabella Schmut and Peter Koll | 
-| Status | Evaluation | 
+| Status | Finalizing the bachelor thesis | 
 | Description |  Development of serverless functions that use multiple cloud services is a complex task as it may require a huge development effort to integrate various libraries for each cloud service that the function uses. This thesis explores how to model cloud service types that a function uses in order to abstract them and offer a single interface for specific service type. *pyStorage* will be implemented to support serverless functions developed in Python programming languages and cloud storages of multiple cloud providers (e.g., AWS, Google, etc). 
 ---
 
@@ -179,7 +175,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | ***xAFCL* data-flow** |
 | ----- | ----- | 
 | Student | Andreas Reheis | 
-| Status | Development | 
+| Status | Evaluation | 
 | Description | The goal of this thesis is to facilitate the development of FCs with data-flow between abstract function types. After development, the system will convert the abstract into concrete data-flow during runtime.|
 ---
 
@@ -189,7 +185,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | ***pyFCfier*: Portable Python FCifier** |
 | ----- | ----- | 
 | Student | Mark Nardi | 
-| Status | Finalizing bachelor thesis | 
+| Status | Finalizing the bachelor thesis | 
 | Description |  The goal of this thesis is to develop a portable Python FCfier (*pyFCfier*), which allows the FC developer to select the target FaaS system per serverless function, faasifies parts of the monolith as serverless fynctions across multiple FaaS systems, updates the offloaded code with the corresponding API calls converts Python monoliths as FCs and evaluate their scalability.|
 ---
 
@@ -230,4 +226,4 @@ Details for closed bachelor theses can be found [here](./closed/README.md).
 
 If you need any additional information, please do not hesitate to contact me on e-mail.
 
-My topics for master theses may be found [here](https://github.com/sashkoristov/master-theses), , which could also adapted as bachelor theses.
+My topics for master theses may be found [here](https://github.com/sashkoristov/master-theses), which could also be adapted as bachelor theses.
