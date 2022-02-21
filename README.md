@@ -32,6 +32,18 @@ Topics are inintially intended for a single student, but each topic can be adapt
 The following topics for bachelor theses are available for the summer semester 2022:
 
 
+## *profileFCs*
+
+| Title | ***profileFCs*: Characterizing and profiling *scientific* and *business* function choreographies ** |
+| ----- | ----- | 
+| Students | one or two | 
+| Description | The aim of this bachelor thesis is to conduct a series of experiments to characterize and profile numerous function implementations of serverless applications represented as functions choreographies (FCs). FCs may be tested for various configurations (concurrency, assigned memory, latency, region, programming language, etc). The times for the functions and FCs are measured and then evaluated. The measured data is stored in a database and then statistically evaluated and visualized. The aim of this work is a better understanding of serverless computing for different FCs and FaaS systems, as well as different FCs (scientific, industry, and business). The trade-off between performance and costs will be examined more closely. The experiment will be executed with the existing *xAFCL* enactment engine ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)). 
+|Tasks| 1. Develop serverless functions. <br> 2. Develop FCs in AFCL.<br> 3. Evaluate *FCs* with various workload (weak and strong scaling).|
+| Theoretical skills | Cloud Computing, Serverless | 
+| Practical skills | FaaS, Cloud API.|
+| Related work | 1. *xAFCL* enactment engine [*xAFCL EE*](https://doi.org/10.1109/TSC.2021.3128137). <br> 2. Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)). |
+---
+
 
 ## *CardioStream*
 
@@ -42,7 +54,7 @@ The following topics for bachelor theses are available for the summer semester 2
 |Tasks| 1. Develop serverless functions. <br> 2. Develop the event-based pipeline.<br> 3. Evaluate *CardioStream* with various workload (weak and strong scaling).|
 | Theoretical skills | Cloud Computing, Serverless, file management, ECG data management (existing libraries). | 
 | Practical skills | FaaS, Cloud API.|
-| Related work | Will be given |
+| Related work | 1. https://kafka.apache.org/. <br> 2. https://aws.amazon.com/sqs/. <br> 3. https://aws.amazon.com/kinesis/. <br> 4. https://www.rabbitmq.com/. |
 ---
 
 ## *fOps*
@@ -54,7 +66,7 @@ The following topics for bachelor theses are available for the summer semester 2
 |Tasks| 1. Develop a module for pipeline scripts. <br> 2. Develop wrappers for serverless function handlers for the selected programming language for various FaaS providers (e.g. AWS, IBM, Google, etc). <br> 3. Develop interfaces with AFCL metadata DB. <br> 4. Develop an automatic deployer for various FaaS providers (e.g. AWS, IBM, Google, etc).<br> 5. Evaluate *fOps* with real life applications.|
 | Theoretical skills | Cloud Computing, Serverless. | 
 | Practical skills | Programming languages, Cloud APIs, git.|
-| Related work | 1. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF). This tools can be used for wrappers and deployment scripts for various programming languages and FaaS providers. <br> 2. (`Node.js FaaSifier`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 3. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 4. (`Automatic function deployment`) [Serverless](https://www.serverless.com/).<br>  5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).|
+| Related work | 1. (`Automatic function deployment`) R. Cordingly, H. Yu, V. Hoang, Z. Sadeghi, D. Foster, D. Perez, R. Hatchett, and W. Lloyd. "The Serverless Application Analytics Framework: Enabling Design Trade-off Evaluation for Serverless Software." In 2020 21st ACM/IFIP International Middleware Conference: 6th International Workshop on Serverless Computing (WoSC'20). 2020, [SAAF](https://github.com/wlloyduw/SAAF). This tools can be used for wrappers and deployment scripts for various programming languages and FaaS providers. <br> 2. (`Node.js FaaSifier`) S. Ristov, S. Pedratscher, J. Wallnöfer, and T. Fahringer, “DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications,” in IEEE Software, doi: 10.1109/MS.2020.3018334, [DAF](https://github.com/qngapparat/daf).<br> 3. (`Automatic function deployment`) [Terraform](https://www.terraform.io/).<br> 4. (`Automatic function deployment`) [Serverless](https://www.serverless.com/).<br>  5. (`Node2FaaS Framework`) [Node2FaaS *FCifier*](https://github.com/node2faas/framework).<br> 6. https://keptn.sh/.|
 ---
 
 <!--
@@ -93,7 +105,7 @@ The following topics for bachelor theses are available for the summer semester 2
 |Tasks| 1. Research parameters that can be used to define SLOs ranges and thresholds including parameters of functions, time periods, FC, cloud providers and their regions, etc.<br> 2. Develop interfaces with AFCL metadata DB.<br> 3. Develop / adapt monitoring for SLOs.<br> 4. Develop an AFCL adaptor that will adapt resource FDs and alternatives.<br> 5. Visualize SLO parameters.<br> 6. Evaluate *SL-AFCL* with the real-life FC and specific scenarios that try to breach SLOs.|
 | Theoretical skills | Cloud Computing, Serverless, AFCL, fault tolerance. | 
 | Practical skills | Algorithms, Cloud APIs.|
-| Related work | 1. [Google SRE](https://sre.google/)
+| Related work | 1. [Google SRE](https://sre.google/). <br> 2. https://keptn.sh/.|
 
 # Recently started bachelor theses (SS2022)
 
