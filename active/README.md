@@ -2,6 +2,7 @@
 
 ## Started in SS2022
 
+1. "*SLO-AFCL*: FaaScinating resilience for function choreographies using service level objectives (SLOs)". [details](./SLO-AFCL.md).
 1. "*CardioAFCL*: Simulation of serverless real-time monitoring centre with AFCL workflows", Katrin Antholzer. [details](./CardioAFCL.md).
 1. "*xAFCLSim2*: Simulation of serverless workflows in AFCL with dependent functions", Marcel Huber and Matthias Thalmann. [details](./xAFCLSim2.md).
 1. "*pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers", Serafin Plattner [details](./pyfOps.md).
