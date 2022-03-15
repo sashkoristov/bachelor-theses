@@ -1,7 +1,13 @@
 # Closed bachelor theses
 
+## Closed in SS2022
+
+1. "*pyFCfier*: Portable Python FCifier", Mark Nardi. [details](./pyFCfier.md).
+
+
 ## Closed in WS2021
 
+1. "*jContainer*: Portable execution of FCs across multiple container systems", David Baumgartner and Albert Neuner. [details](./jContainer.md).
 1. "*jFCfier*: Portable Java *FCfier*", David Freina and Jonas Wagner. [details](./jFCfier.md).
 1. "*fService*: Configurable abstraction for serverless development", Benjamin Hackstock. [details](./fService.md).
 1. "*xAFCLTrace* scheduling and tracing framework", Philipp Gritsch. [details](./xAFCLTrace.md).

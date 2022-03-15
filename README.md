@@ -189,21 +189,12 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Description | The goal of this thesis is to facilitate the development of FCs with data-flow between abstract function types. After development, the system will convert the abstract into concrete data-flow during runtime.|
 ---
 
-
-## *pyFCfier*
-
-| Title | ***pyFCfier*: Portable Python FCifier** |
-| ----- | ----- | 
-| Student | Mark Nardi | 
-| Status | Finalizing the bachelor thesis | 
-| Description |  The goal of this thesis is to develop a portable Python FCfier (*pyFCfier*), which allows the FC developer to select the target FaaS system per serverless function, faasifies parts of the monolith as serverless fynctions across multiple FaaS systems, updates the offloaded code with the corresponding API calls converts Python monoliths as FCs and evaluate their scalability.|
----
-
 <!-- Details for active bachelor theses can be found [here](./active/README.md). -->
 
 
 # Closed bachelor theses
 
+1. "*pyFCfier*: Portable Python FCifier", Mark Nardi. SS2022. [details](./closed/pyFCfier.md).
 1. "*jContainer*: Portable execution of FCs across multiple container systems", David Baumgartner and Albert Neuner. WS2021. [details](./closed/jContainer.md).
 1. "*jFCfier*: Portable Java *FCfier*", David Freina and Jonas Wagner. WS2021. [details](./closed/jFCfier.md).
 1. "*fService*: Configurable abstraction for serverless development", Benjamin Hackstock. WS2021. [details](./closed/fService.md).
