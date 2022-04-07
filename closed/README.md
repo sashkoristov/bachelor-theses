@@ -2,6 +2,7 @@
 
 ## Closed in SS2022
 
+1. "*pyStorage*: Agile development and optimized execution of data-intensive serverless workflows", Isabella Schmut and Peter Koll. SS2022. [details](./pyStorage.md).
 1. "*pyFCfier*: Portable Python FCifier", Mark Nardi. [details](./pyFCfier.md).
 
 

@@ -167,15 +167,6 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 Details for active bachelor theses can be found [here](./active/README.md).
 
-## *pyStorage*
-
-| Title | ***pyStorage*: Agile development and optimized execution of data-intensive serverless workflows** |
-| ----- | ----- | 
-| Students | Isabella Schmut and Peter Koll | 
-| Status | Finalizing the bachelor thesis | 
-| Description |  Development of serverless functions that use multiple cloud services is a complex task as it may require a huge development effort to integrate various libraries for each cloud service that the function uses. This thesis explores how to model cloud service types that a function uses in order to abstract them and offer a single interface for specific service type. *pyStorage* will be implemented to support serverless functions developed in Python programming languages and cloud storages of multiple cloud providers (e.g., AWS, Google, etc).|
----
-
 ## *xAFCL* Data-Flow
 
 | Title | ***xAFCL* data-flow** |
@@ -190,6 +181,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 # Closed bachelor theses
 
+1. "*pyStorage*: Agile development and optimized execution of data-intensive serverless workflows", Isabella Schmut and Peter Koll. SS2022. [details](./closed/pyStorage.md).
 1. "*pyFCfier*: Portable Python FCifier", Mark Nardi. SS2022. [details](./closed/pyFCfier.md).
 1. "*jContainer*: Portable execution of FCs across multiple container systems", David Baumgartner and Albert Neuner. WS2021. [details](./closed/jContainer.md).
 1. "*jFCfier*: Portable Java *FCfier*", David Freina and Jonas Wagner. WS2021. [details](./closed/jFCfier.md).
