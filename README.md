@@ -93,6 +93,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | ***CardioStream*: Simulation of serverless real-time monitoring centre with streaming** |
 | ----- | ----- | 
 | Student | Andrei Amza | 
+| Status | Requirements analysis | 
 | Description | The goal of this bachelor thesis is to develop real-time monitoring centre of patients' sensor data with streaming. Simulation of real-time monitoring centre includes experiment setup, simulation, and evaluation phases. The set of actions should be performed in a form of event-based actions of the cloud provider (e.g., AWS) after streaming the patients' data. This includes serverless functions for noise intervals identification and elimination, heartbeat detection, detection of fibrillation, identification of segments and elevation, heart rate variability, statistical analysis and alerting. A smart scheduler will be developed to optimize cost-performance ratio by grouping multiple samples into a single message. The evaluation metrics will include measuring of response times for different test cases varying the workload (e.g., from 1K to 20K virtual patients ECG data simultaneously and their length). The experiment will be executed. The target is to measure speedup, cost, and throughput for various workload.|
 ---
 
@@ -101,6 +102,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | ***SLO-AFCL*: FaaScinating resilience for function choreographies using service level objectives (SLOs)** |
 | - | - | 
 | Students | Julian Thöni and Benjamin Knjisa |
+| Status | Requirements analysis | 
 | Description |  ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)) may run alternative *function deployments* (*FDs*) of a serverless workflow or function choreography (*FC*) in AFCL across the top five FaaS providers. It also can log various cost, performance, and fault tolerance parameters of functions and entire FCs. However, having a proactive component that will dynamically adapt which FDs and alternatives to run will improve its resilience. An example of SLO (service level objectives) for an FC would be minimum 99% of all executions will succeed, with maximum cost of 5$ and finish within 2 seconds. Thresholds may be failure rate of each function is maximum 0.5%. This bachelor thesis will adaptively determine which FD and which alternatives to run for each FC function based on specified SLOs, which can be defined for different parameters of functions (round trip time, cost, failure rate), for the FC (makespan, cost), for specific cloud region, and for different time period (in the last minute, hour, day, etc). *SLO-AFCL* can create and select new FDs in other cloud regions (twins), in the same cloud region with more or less memory (siblings), more FDs in parallel to increase availability, etc. *SLO-AFCL* will be evaluated with a real life workflow for various FaaS providers.|
 ---
 
@@ -162,17 +164,12 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Description |  *portableGo* will be implemented to support serverless functions developed in Golang and storage services from multiple cloud providers (e.g., AWS, Google, etc). Furthermore, *portableGo* will offer automatic deployment on multiple clouds from a single developed function locally. Finally, *portableGo* will be integrated with AFCL workflows to deploy each function of a workflow to the specified location (FaaS provider, cloud region, and assigned memory.)|
 ---
 
-
-# Active bachelor theses
-
-Details for active bachelor theses can be found [here](./active/README.md).
-
 ## *xAFCL* Data-Flow
 
 | Title | ***xAFCL* data-flow** |
 | ----- | ----- | 
 | Student | Andreas Reheis | 
-| Status | Evaluation | 
+| Status | Initial presentation | 
 | Description | The goal of this thesis is to facilitate the development of FCs with data-flow between abstract function types. After development, the system will convert the abstract into concrete data-flow during runtime.|
 ---
 
