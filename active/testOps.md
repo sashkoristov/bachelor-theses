@@ -1,6 +1,6 @@
 ## *testOps*
 
-| Title | ***testOps*: A pipeline for one-touch none-functional testing of serverless functions across multiple providers** |
+| Title | ***testOps*: Automatic non-functional testing of serverless functions across multiple FaaS providers** |
 | ----- | ----- | 
 | Student | Thomas Zangerl | 
 | Description |  The goal of this bachelor thesis is to develop an automation pipeline for non-functinoal testing of serverless functions and infrastructure across multiple providers. The main objective is to minimize the effort and automatize the language-agnostic testing of arbitrary function implementations (*FIs*), or the deployment packages for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, and Alibaba). The Ops engineer needs to deploy the deployment package (jar or zip) for each specified *function deployment* - *FD* in the test plan, which may include deploy the package on various cloud regions and run the code with some predefined various performance parameters (RTT, ET, concurrency limitations, various cloud services abstracted with fService) and store the measured parameters in the existing AFCL metadata database for all FDs. *testOps* will evaluate serverless infrastructures with "no-op" functions and real life functions for various FaaS providers and abstracted cloud services with fService.
