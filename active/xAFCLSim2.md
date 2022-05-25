@@ -1,6 +1,6 @@
 ## *xAFCLSim2*
 
-| Title | ***xAFCLSim2*: Simulation of serverless workflows in AFCL with dependent functions** |
+| Title | ***xAFCLSim2*: Simulation of serverless workflows in AFCL with dependent cloud services** |
 | ----- | ----- | 
 | Students | Marcel Huber, Matthias Thalmann | 
 | Status | Requirements analysis | 
