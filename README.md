@@ -168,10 +168,10 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## *jfOps*
 
-| Title | ***jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers** (Tentative) |
+| Title | ***jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers**|
 | ----- | ----- | 
 | Students | Thomas Pregenzer and Tobias Hosp | 
-| Status | System architecture | 
+| Status | Development | 
 | Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Java serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Java locally only once (*function template*) and after pushing the code on git (eg. github), *jfOps* pipeline will conduct a series of actions. First, *jfOps* will encapsulate the Java code (*function implementation* - *FI*) for each supported FaaS provider. Second, *jfOps* will deploy the code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *jfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *jfOps* may consider to deploy multiple functions from a single code with multiple handlers and functions may be developed with fService and then also tests should check if the function may use all enumerated services. *jfOps* will be evaluated with a real life workflow for various FaaS providers.|
 ---
 
