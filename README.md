@@ -95,7 +95,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 | Title | ***profileFCs*: Characterizing *scientific* function choreographies with xAFCL in federated FaaS** |
 | ----- | ----- | 
-| Student | Florian Dria | 
+| Student | Fabian Dria | 
 | Status | Development | 
 | Description | The aim of this bachelor thesis is to conduct a series of experiments to characterize and profile numerous function implementations of serverless applications represented as functions choreographies (FCs). FCs may be tested for various configurations (concurrency, assigned memory, latency, region, programming language, etc). The times for the functions and FCs are measured and then evaluated. The measured data is stored in a database and then statistically evaluated and visualized. The aim of this work is a better understanding of serverless computing for scientific FCs (compute and data bound) in federated FaaS. The trade-off between performance and costs will be examined more closely. The experiment will be executed with the existing *xAFCL* enactment engine ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)). 
 ---
