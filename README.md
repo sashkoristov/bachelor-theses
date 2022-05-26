@@ -93,7 +93,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## *profileFCs*
 
-| Title | ***profileFCs*: Characterizing *scientific* function choreographies in federated FaaS** |
+| Title | ***profileFCs*: Characterizing *scientific* function choreographies with xAFCL in federated FaaS** |
 | ----- | ----- | 
 | Student | Florian Dria | 
 | Status | Development | 

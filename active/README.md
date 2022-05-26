@@ -2,7 +2,7 @@
 
 ## Started in SS2022
 
-1. "*profileFCs*: Characterizing *scientific* function choreographies in federated FaaS", Florian Dria. [details](./profileFCSs.md).
+1. "*profileFCs*: Characterizing *scientific* function choreographies with xAFCL in federated FaaS", Florian Dria. [details](./profileFCSs.md).
 1. "*ProfileFCSystems*: Profiling various serverless workflow management systems", Tom Giersiepen. [details](./profileFCSystems.md).
 1. "*InteropFCs*: Characterizing AFCL serverless workflows with interoperable cloud services", Florian Unterhofer. [details](./InteropFCs.md).
 1. "*CardioStream*: Simulation of serverless real-time monitoring centre with streaming", Amza Andrei. [details](./CardioStream.md).
