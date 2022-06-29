@@ -12,15 +12,6 @@
 1. "*pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers", Serafin Plattner [details](./pyfOps.md).
 1. "*jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers", Thomas Pregenzer and Tobias Hosp [details](./jfOps.md).
 1. "*testOps*: Automatic non-functional testing of serverless functions across multiple FaaS providers", Thomas Zangerl [details](./testOps.md).
----
-
-## Started in WS2021
-
-1. "*portableGo*: Portable development and deployment of Go functions in serverless workflows", Simon Brandacher [details](./portableGo.md).
----
-
-## Started in SS2021
-
 1. "*xAFCL* Data-Flow", Andreas Reheis. [details](./xAFCLDataFlow.md).
 ---
 
