@@ -24,15 +24,19 @@ Topics are inintially intended for a single student, but each topic can be adapt
 
 The first big farewell party was held on May 01, 2022 with 10 students. THANK YOU very much for the great time! 
 
+# NEW TOPICS
+
+WILL BE PUBLISHED SOON.
+
+
 
 # Available bachelor theses
 
-* Tentative requirements analyses January-February 2022
-* Tentative start February-March 2022
-* Tentative finish June-December 2022
+* Tentative requirements analyses September - October 2022
+* Tentative start November 2022 -January 2023
+* Tentative finish March-June 2023
 
-
-The following topics for bachelor theses are available for the summer semester 2022:
+The following topics for bachelor theses are available for the winter semester 2022:
 
 
 ## *profileFCs*
@@ -114,7 +118,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | **Characterizing AFCL serverless workflows with interoperable cloud services** |
 | ----- | ----- | 
 | Student | Florian Unterhofer | 
-| Status | Development | 
+| Status | Final presentation | 
 | Description | Each cloud provider offers their own services for specific needs of the users. For instance, for storing objects, Amazon and Google have has AWS S3 Storage and Google Cloud Storage, respectively, while for object recognition in images, they introduced AWS Rekognition and Google Vision. In order to unlock the users in federated clouds, the novel fService approach offers developers to create serverless functions with interoperable services. With this approach, users can freely select varios services. For instance, run computing on AWS Lambda while images are stored on Google Cloud Storage and processed with AWS Rekognition. The goal of this bachelor thesis is to develop and characterize serverless applications that can easily select cloud services during runtime. The FCs will be developed using our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)). A series of experiments will be conducted to determine pros and cons of mixing computing and cloud services among various providers (e.g., Amazon and Google). The target is to characterize how various interoperable services affect performance and cost for various problem size. For the experiments, the *xAFCL* enactment engine [*xAFCL EE*](https://doi.org/10.1109/TSC.2021.3128137) will be used. The final goal is to determine the fastest and cheapest setup for the evaluated FCs.|
 ---
 
@@ -161,7 +165,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | ***pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers**|
 | ----- | ----- | 
 | Student | Serafin Plattner | 
-| Status | Development | 
+| Status | Finalizing the bachelor thesis | 
 | Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Python serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Python locally only once (*function template*) and after pushing the code on git (eg. github), *pyfOps* pipeline will conduct a series of actions. First, *pyfOps* will encapsulate the code (*function implementation* - *FI*) for each supported FaaS provider. Second, *pyfOps* will deploy the python code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the Python code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *pyfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *pyfOps* may consider to deploy multiple functions from a single code with multiple handlers and functions may be developed with fService and then also tests should check if the function may use all enumerated services. *pyfOps* will be evaluated with a real life workflow for various FaaS providers.|
 
 ---
@@ -171,7 +175,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | ***jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers**|
 | ----- | ----- | 
 | Students | Thomas Pregenzer and Tobias Hosp | 
-| Status | Development | 
+| Status | Finalizing the bachelor thesis | 
 | Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Java serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Java locally only once (*function template*) and after pushing the code on git (eg. github), *jfOps* pipeline will conduct a series of actions. First, *jfOps* will encapsulate the Java code (*function implementation* - *FI*) for each supported FaaS provider. Second, *jfOps* will deploy the code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *jfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *jfOps* may consider to deploy multiple functions from a single code with multiple handlers and functions may be developed with fService and then also tests should check if the function may use all enumerated services. *jfOps* will be evaluated with a real life workflow for various FaaS providers.|
 ---
 
