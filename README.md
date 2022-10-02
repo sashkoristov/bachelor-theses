@@ -109,18 +109,10 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Title | Profiling various serverless workflow management systems |
 | ----- | ----- | 
 | Student | Tom Giersiepen | 
-| Status | Development | 
+| Status | Evaluation | 
 | Description | The aim of this bachelor thesis is to conduct a series of experiments to profile various serverless workflow (FC) management systems of well-known public cloud providers. FCs may be tested for various configurations (concurrency, assigned memory, latency, region, programming language, etc). The times for the functions and FCs are measured and then evaluated. The measured data is stored in a database and then statistically evaluated and visualized. The aim of this work is a better understanding of serverless computing for different FCs and FaaS systems. The trade-off between performance and costs will be examined more closely. At the end, the optimal solution will be will be executed with the existing *xAFCL* enactment engine ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)). 
 ---
 
-## *InteropFCs*
-
-| Title | **Characterizing AFCL serverless workflows with interoperable cloud services** |
-| ----- | ----- | 
-| Student | Florian Unterhofer | 
-| Status | Final presentation | 
-| Description | Each cloud provider offers their own services for specific needs of the users. For instance, for storing objects, Amazon and Google have has AWS S3 Storage and Google Cloud Storage, respectively, while for object recognition in images, they introduced AWS Rekognition and Google Vision. In order to unlock the users in federated clouds, the novel fService approach offers developers to create serverless functions with interoperable services. With this approach, users can freely select varios services. For instance, run computing on AWS Lambda while images are stored on Google Cloud Storage and processed with AWS Rekognition. The goal of this bachelor thesis is to develop and characterize serverless applications that can easily select cloud services during runtime. The FCs will be developed using our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)). A series of experiments will be conducted to determine pros and cons of mixing computing and cloud services among various providers (e.g., Amazon and Google). The target is to characterize how various interoperable services affect performance and cost for various problem size. For the experiments, the *xAFCL* enactment engine [*xAFCL EE*](https://doi.org/10.1109/TSC.2021.3128137) will be used. The final goal is to determine the fastest and cheapest setup for the evaluated FCs.|
----
 
 ## *CardioStream*
 
@@ -140,7 +132,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Description |  ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)) may run alternative *function deployments* (*FDs*) of a serverless workflow or function choreography (*FC*) in AFCL across the top five FaaS providers. It also can log various cost, performance, and fault tolerance parameters of functions and entire FCs. However, having a proactive component that will dynamically adapt which FDs and alternatives to run will improve its resilience. An example of SLO (service level objectives) for an FC would be minimum 99% of all executions will succeed, with maximum cost of 5$ and finish within 2 seconds. Thresholds may be failure rate of each function is maximum 0.5%. This bachelor thesis will adaptively determine which FD and which alternatives to run for each FC function based on specified SLOs, which can be defined for different parameters of functions (round trip time, cost, failure rate), for the FC (makespan, cost), for specific cloud region, and for different time period (in the last minute, hour, day, etc). *SLO-AFCL* can create and select new FDs in other cloud regions (twins), in the same cloud region with more or less memory (siblings), more FDs in parallel to increase availability, etc. *SLO-AFCL* will be evaluated with a real life workflow for various FaaS providers.|
 ---
 
-
+<!---
 ## *CardioAFCL*
 
 | Title | ***CardioAFCL*: Simulation of serverless real-time monitoring centre with AFCL workflows** |
@@ -149,6 +141,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 | Status | Requirements analysis | 
 | Description | The goal of this bachelor thesis is to develop real-time monitoring centre of patients' sensor data using batch processing approach with AFCL. Simulation of real-time monitoring centre includes experiment setup, simulation, and evaluation phases. The set of actions should be performed in a form of an AFCL serverless workflow or function choreography (*FC*) after upload of patients' data. This includes serverless functions for noise intervals identification and elimination, heartbeat detection, detection of fibrillation, identification of segments and elevation, heart rate variability, statistical analysis, alerting, and reporting. A generator of a virtual patient ECG will be developed to simulate generated files. The evaluation metrics will include measuring of response times for different test cases varying the workload (e.g., from 1K to 20K virtual patients ECG data simultaneously and their length). The experiment will be executed with the existing *xAFCL* enactment engine ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)). The target is to measure speedup and throughput versus the number of cloud regions (<3 sec).|
 ---
+-->
 
 ## *xAFCLSim2*
 
@@ -204,6 +197,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 # Closed bachelor theses
 
+1. "*InteropFCs*: Characterizing AFCL serverless workflows with interoperable cloud services", Florian Unterhofer. SS2022. [details](./closed/InteropFCs.md).
 1. "*portableGo*: Portable development and deployment of Go functions in serverless workflows", Simon Brandacher. SS2022. [details](./closed/portableGo.md).
 1. "*pyStorage*: Agile development and optimized execution of data-intensive serverless workflows", Isabella Schmut and Peter Koll. SS2022. [details](./closed/pyStorage.md).
 1. "*pyFCfier*: Portable Python FCifier", Mark Nardi. SS2022. [details](./closed/pyFCfier.md).
