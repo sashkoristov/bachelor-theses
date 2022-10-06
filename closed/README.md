@@ -1,9 +1,15 @@
 # Closed bachelor theses
 
+
+## Closed in WS2022
+
+1. "*pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers", Serafin Plattner [details](./pyfOps.md).
+
+
 ## Closed in SS2022
 
-1. "*InteropFCs*: Characterizing AFCL serverless workflows with interoperable cloud services", Florian Unterhofer. SS2022. [details](./InteropFCs.md).
-1. "*portableGo*: Portable development and deployment of Go functions in serverless workflows", Simon Brandacher. SS2022 [details](./portableGo.md).
+1. "*InteropFCs*: Characterizing AFCL serverless workflows with interoperable cloud services", Florian Unterhofer. [details](./InteropFCs.md).
+1. "*portableGo*: Portable development and deployment of Go functions in serverless workflows", Simon Brandacher. [details](./portableGo.md).
 1. "*pyStorage*: Agile development and optimized execution of data-intensive serverless workflows", Isabella Schmut and Peter Koll. SS2022. [details](./pyStorage.md).
 1. "*pyFCfier*: Portable Python FCifier", Mark Nardi. [details](./pyFCfier.md).
 

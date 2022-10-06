@@ -153,16 +153,6 @@ Details for active bachelor theses can be found [here](./active/README.md).
 ---
 
 
-## *pyfOps*
-
-| Title | ***pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers**|
-| ----- | ----- | 
-| Student | Serafin Plattner | 
-| Status | Finalizing the bachelor thesis | 
-| Description |  The goal of this bachelor thesis is to develop a CI/CD pipeline for development, deployment, and functional testing of Python serverless functions across multiple providers. The main approach is to minimize the development effort and automatize the deployment and testing of the code for multiple FaaS providers (e.g., AWS, IBM, Google, Azure, Alibaba). The developer needs to develop the function in Python locally only once (*function template*) and after pushing the code on git (eg. github), *pyfOps* pipeline will conduct a series of actions. First, *pyfOps* will encapsulate the code (*function implementation* - *FI*) for each supported FaaS provider. Second, *pyfOps* will deploy the python code (FI) for each specified *function deployment* - *FD* (e.g. in MariaDB AFCL metadata database), which may include deploy the Python code on various cloud regions of multiple FaaS providers and determine the minimum needed memory, run the code with some predefined data inputs and test whether the code runs successfully on each FaaS provider. Finally, *pyfOps* stores deployment times, package size, resource link, and minimum memory in the existing AFCL metadata database for all FIs and FDs. *pyfOps* may consider to deploy multiple functions from a single code with multiple handlers and functions may be developed with fService and then also tests should check if the function may use all enumerated services. *pyfOps* will be evaluated with a real life workflow for various FaaS providers.|
-
----
-
 ## *jfOps*
 
 | Title | ***jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers**|
@@ -197,6 +187,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 # Closed bachelor theses
 
+1. "*pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers", Serafin Plattner. WS2022. [details](./closed/pyfOps.md).
 1. "*InteropFCs*: Characterizing AFCL serverless workflows with interoperable cloud services", Florian Unterhofer. SS2022. [details](./closed/InteropFCs.md).
 1. "*portableGo*: Portable development and deployment of Go functions in serverless workflows", Simon Brandacher. SS2022. [details](./closed/portableGo.md).
 1. "*pyStorage*: Agile development and optimized execution of data-intensive serverless workflows", Isabella Schmut and Peter Koll. SS2022. [details](./closed/pyStorage.md).
