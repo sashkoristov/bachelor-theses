@@ -91,7 +91,45 @@ The following topics for bachelor theses are available for the winter semester 2
 
 ---
 
-# Recently started bachelor theses (SS2022)
+
+
+# Recently started bachelor theses (WS2022)
+
+Details for active bachelor theses can be found [here](./active/README.md).
+
+
+## *GoSpeechLess*
+
+| Title | ***GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text** (Tentative title) |
+| - | - | 
+| Students | David Meyer | 
+| Status | Requirements analysis | 
+| Description | Development of serverless functions that use multiple cloud services is a complex task as it may require huge development effort to integrate various libraries for each cloud service that the function uses. This bachelor thesis extends *fService* to support programming language Go and various cloud services (e.g., speech2text and text2speech) of multiple cloud providers (e.g., AWS, Google, etc). Heuristics may be added to determine which specific cloud service to be used (e.g., Amazon Transcribe or Google SpeechtoText) based on the storage location of the audio file.|
+
+---
+
+
+## *profileCold*
+
+| Title | ***profileCold*: Characterizing and modeling cold start overhead in federated FaaS** (Tentative title) |
+| ----- | ----- | 
+| Student | Maximilian Gallinat  | 
+| Status | Requirements analysis | 
+| Description | The aim of this bachelor thesis is to conduct a series of experiments to characterize and profile numerous representative function implementations to analyze, model, and evaluate "cold start" effects. Cold start may be tested for various configurations (concurrency, assigned memory, package size, code size, number of files, layers, provider, region, programming language, caching, etc). The times for the functions are measured and the initial model will be created for the parameters that affect the cold start. Afterwards, the model will be evaluated for regions and functions for which no execution was conducted. The aim of this work is a better understanding of serverless computing for the very important cold start effect.|
+---
+
+## *pyRecognition*
+
+| Title | ***pyRecognition*: An interoperable library for object recognition in Python serverless functions** (Tentative title) |
+| - | - | 
+| Students | Lea Plangger | 
+| Status | Requirements analysis | 
+| Description | Development of serverless functions that use multiple cloud services is a complex task as it may require huge development effort to integrate various libraries for each cloud service that the function uses. This bachelor thesis extends *fService* to support programming language Python and the cloud service for object recognition (e.g., AWS Rekognition and Google Vision) of multiple cloud providers (e.g., AWS, Google, etc). Heuristics may be added to determine which specific cloud service to be used (e.g., AWS Rekognition or Google Vision) based on the storage location of the images.|
+
+---
+
+
+# bachelor theses started in SS2022
 
 Details for active bachelor theses can be found [here](./active/README.md).
 
