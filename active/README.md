@@ -2,11 +2,14 @@
 
 ## Started in WS2022
 
+1. "*GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text" (Tentative title), David Meyer. [details](./GoSpeechLess.md).
+1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS" (Tentative title), Maximilian Gallinat. [details](./profileCold.md).
+1. "*pyRecognition*: An interoperable library for object recognition in Python serverless functions" (Tentative title), Lea Plangger. [details](./pyRecognition.md).
 1. "*MatchFaaS*: Matching-based Scheduling of Serverless Workflows in Federated FaaS", Amza Andrei. [details](./MatchFaaS.md).
 
 ## Started in SS2022
 
-1. "*profileFCs*: Characterizing *scientific* function choreographies with xAFCL in federated FaaS", Fabian Dria. [details](./profileFCSs.md).
+1. "*profileFCs*: Characterizing *scientific* function choreographies with xAFCL in federated FaaS", Fabian Dria. [details](./profileFCs.md).
 1. "*ProfileFCSystems*: Profiling various serverless workflow management systems", Tom Giersiepen. [details](./profileFCSystems.md).
 1. "*SLO-AFCL*: FaaScinating resilience for function choreographies using service level objectives (SLOs)", Julian Thöni and Benjamin Knjisa. [details](./SLO-AFCL.md).
 1. "*xAFCLSim2*: Simulation of serverless workflows in AFCL with dependent cloud services", Marcel Huber and Matthias Thalmann. [details](./xAFCLSim2.md).
