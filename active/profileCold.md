@@ -1,6 +1,6 @@
 ## *profileCold*
 
-| Title | ***profileCold*: Characterizing and modeling cold start overhead in federated FaaS** (Tentative title) |
+| Title | ***profileCold*: Characterizing and modeling cold start overhead in federated FaaS** |
 | ----- | ----- | 
 | Student | Maximilian Gallinat  | 
 | Status | Requirements analysis | 

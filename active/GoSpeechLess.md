@@ -1,6 +1,6 @@
 ## *GoSpeechLess*
 
-| Title | ***GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text** (Tentative title) |
+| Title | ***GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text** |
 | - | - | 
 | Students | David Meyer | 
 | Status | Requirements analysis | 

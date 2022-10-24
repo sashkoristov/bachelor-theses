@@ -100,7 +100,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## *GoSpeechLess*
 
-| Title | ***GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text** (Tentative title) |
+| Title | ***GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text** |
 | - | - | 
 | Students | David Meyer | 
 | Status | Requirements analysis | 
@@ -111,7 +111,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## *profileCold*
 
-| Title | ***profileCold*: Characterizing and modeling cold start overhead in federated FaaS** (Tentative title) |
+| Title | ***profileCold*: Characterizing and modeling cold start overhead in federated FaaS** |
 | ----- | ----- | 
 | Student | Maximilian Gallinat  | 
 | Status | Requirements analysis | 
