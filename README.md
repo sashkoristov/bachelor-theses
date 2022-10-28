@@ -120,7 +120,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## *pyRecognition*
 
-| Title | ***pyRecognition*: An interoperable library for object recognition in Python serverless functions** (Tentative title) |
+| Title | ***pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS** |
 | - | - | 
 | Students | Lea Plangger | 
 | Status | Requirements analysis | 

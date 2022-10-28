@@ -2,9 +2,9 @@
 
 ## Started in WS2022
 
-1. "*GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text" (Tentative title), David Meyer. [details](./GoSpeechLess.md).
-1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS" (Tentative title), Maximilian Gallinat. [details](./profileCold.md).
-1. "*pyRecognition*: An interoperable library for object recognition in Python serverless functions" (Tentative title), Lea Plangger. [details](./pyRecognition.md).
+1. "*GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text", David Meyer. [details](./GoSpeechLess.md).
+1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./profileCold.md).
+1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./pyRecognition.md).
 1. "*MatchFaaS*: Matching-based Scheduling of Serverless Workflows in Federated FaaS", Amza Andrei. [details](./MatchFaaS.md).
 
 ## Started in SS2022
