@@ -26,7 +26,7 @@ The following topics for bachelor theses are available for the summer semester 2
 
 
 1. *StreamAFCL* : A novel serverless workflow management system for streaming AFCL workflows in federated FaaS [details](./new/StreamAFCL.md).
-1. *TwinLess* : Building a digital twin with serverless workflows in federated FaaS.
+1. *TwinLess* : Building a digital twin with serverless workflows in federated FaaS [details](./new/twinLess.md).
 1. *fServiceX* : Code once serverless functions and dynamically select BaaS services in federated FaaS [details](./new/fServiceX.md).
 1. *fOps*: Automation in packaging, deployment, and testing of serverless functions in federated FaaS [details](./new/fOps.md).
 1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./new/profileBaaS.md).
