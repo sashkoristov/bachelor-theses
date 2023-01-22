@@ -3,6 +3,10 @@
 
 ## Closed in WS2022
 
+1. "*jfOps*: A pipeline for one-touch development, deployment, and testing of Java serverless functions across multiple providers", Thomas Pregenzer and Tobias Hosp [details](./jfOps.md).
+1. "*testOps*: Automatic non-functional testing of serverless functions across multiple FaaS providers", Thomas Zangerl [details](./testOps.md).
+1. "*xAFCLSim2*: Simulation of serverless workflows in AFCL with dependent cloud services", Marcel Huber and Matthias Thalmann. [details](./xAFCLSim2.md).
+1. "*ProfileFCSystems*: Profiling various serverless workflow management systems", Tom Giersiepen. [details](./profileFCSystems.md).
 1. "*pyfOps*: A pipeline for one-touch development, deployment, and testing of Python serverless functions across multiple providers", Serafin Plattner [details](./pyfOps.md).
 
 
