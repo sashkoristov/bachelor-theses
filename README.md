@@ -25,9 +25,11 @@ Topics are inintially intended for a single student, but each topic can be adapt
 The following topics for bachelor theses are available for the summer semester 2023:
 
 
-1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./new/profileBaaS.md).
-1. *fOps*: Automation in packaging, deployment, and testing of serverless functions in federated FaaS [details](./new/fOps.md).
+1. *StreamAFCL* : A novel serverless workflow management system for streaming AFCL workflows in federated FaaS [details](./new/StreamAFCL.md).
+1. *TwinLess* : Building a digital twin with serverless workflows in federated FaaS.
 1. *fServiceX* : Code once serverless functions and dynamically select BaaS services in federated FaaS [details](./new/fServiceX.md).
+1. *fOps*: Automation in packaging, deployment, and testing of serverless functions in federated FaaS [details](./new/fOps.md).
+1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./new/profileBaaS.md).
 
 
 ## Timeline
