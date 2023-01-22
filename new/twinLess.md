@@ -13,4 +13,4 @@
 
 ## Example architecture
 
-<img src="figures/twinLess.png" />
+<img src="figures/TwinLess.png" />
