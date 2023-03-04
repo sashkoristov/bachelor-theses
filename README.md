@@ -74,15 +74,18 @@ We will define several milestones for the project and ideally bi-weekly meetings
 
 
 
-<!--
-# Recently started bachelor theses (SS2023)
--->
-
-
-
 # Active bachelor theses
 
 Details for active bachelor theses can be found [here](./active/README.md).
+
+## Recently started (SS2023)
+
+1. *pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services. [details](./active/pyTranslate.md)
+1. (Tentative title) *StreamAFCL*: A novel serverless workflow management system for streaming AFCL workflows in federated FaaS.
+
+
+
+## Started in 2022
 
 1. "*GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text", David Meyer. [details](./active/GoSpeechLess.md).
 1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./active/profileCold.md).
