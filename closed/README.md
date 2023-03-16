@@ -1,5 +1,9 @@
 # Closed bachelor theses
 
+## Closed in SS2023
+
+1. "*SLO-AFCL*: FaaScinating resilience for function choreographies using service level objectives (SLOs)", Julian Thöni and Benjamin Knjisa. [details](./SLO-AFCL.md).
+
 
 ## Closed in WS2022
 
