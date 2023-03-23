@@ -80,8 +80,8 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Recently started (SS2023)
 
-1. *pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services. [details](./active/pyTranslate.md)
-1. (Tentative title) *StreamAFCL*: A novel serverless workflow management system for streaming AFCL workflows in federated FaaS.
+1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./active/pyTranslate.md)
+1. (Tentative title) "*StreamAFCL*: A novel serverless workflow management system for streaming AFCL workflows in federated FaaS", Hendrik Munske [details].
 
 
 
@@ -91,7 +91,6 @@ Details for active bachelor theses can be found [here](./active/README.md).
 1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./active/profileCold.md).
 1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./active/pyRecognition.md).
 1. "*MatchFaaS*: Matching-based Scheduling of Serverless Workflows in Federated FaaS", Amza Andrei. [details](./active/MatchFaaS.md).
-1. "*profileFCs*: Characterizing *scientific* function choreographies with xAFCL in federated FaaS", Fabian Dria. [details](./profileFCs.md).
 
 
 
