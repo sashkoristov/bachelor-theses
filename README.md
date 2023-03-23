@@ -34,9 +34,9 @@ The following topics for bachelor theses are available for the summer semester 2
 
 ## Timeline
 
-* Tentative application by students: January - February 2023
-* Tentative start with the thesis:  March 2023 - April 2023
-* Tentative finish June - December 2023
+* Tentative application by students: March - May 2023
+* Tentative start with the thesis:  March 2023 - June 2023
+* Tentative finish WS2023/24
 
 ## Tentative agenda
 
