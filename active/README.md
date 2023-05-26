@@ -2,8 +2,9 @@
 
 ## Started in SS2023
 
-1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./pyTranslate.md)
+1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./pyTranslate.md).
 1. (Tentative title) "*StreamAFCL*: A novel serverless workflow management system for streaming AFCL workflows in federated FaaS", Hendrick Munske [details].
+1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./BuildGoalLess.md).
 
 
 ## Started in WS2022

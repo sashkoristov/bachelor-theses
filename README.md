@@ -80,9 +80,9 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Recently started (SS2023)
 
-1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./active/pyTranslate.md)
+1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./active/pyTranslate.md).
 1. (Tentative title) "*StreamAFCL*: A novel serverless workflow management system for streaming AFCL workflows in federated FaaS", Hendrik Munske [details].
-
+1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./active/BuildGoalLess.md).
 
 
 ## Started in 2022
