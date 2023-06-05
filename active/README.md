@@ -2,6 +2,7 @@
 
 ## Started in SS2023
 
+1. "*PySpeechLess*: Interoperable Python serverless functions in federated FaaS", Lukas Pernter and Simon Muscatello. [details](./PySpeechLess.md).
 1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./pyTranslate.md).
 1. (Tentative title) "*StreamAFCL*: A novel serverless workflow management system for streaming AFCL workflows in federated FaaS", Hendrick Munske [details].
 1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./BuildGoalLess.md).
@@ -12,7 +13,6 @@
 1. "*GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text", David Meyer. [details](./GoSpeechLess.md).
 1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./profileCold.md).
 1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./pyRecognition.md).
-1. "*MatchFaaS*: Matching-based Scheduling of Serverless Workflows in Federated FaaS", Amza Andrei. [details](./MatchFaaS.md).
 
 <!--
 ## Started in SS2022

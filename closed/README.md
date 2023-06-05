@@ -2,6 +2,7 @@
 
 ## Closed in SS2023
 
+1. "*MatchFaaS*: Matching-based Scheduling of Serverless Workflows in Federated FaaS", Amza Andrei. [details](./MatchFaaS.md).
 1. "*profileFCs*: Characterizing *scientific* function choreographies with xAFCL in federated FaaS", Fabian Dria. [details](./profileFCs.md).
 1. "*SLO-AFCL*: FaaScinating resilience for function choreographies using service level objectives (SLOs)", Julian Thöni and Benjamin Knjisa. [details](./SLO-AFCL.md).
 
