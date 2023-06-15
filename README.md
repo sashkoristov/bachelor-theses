@@ -80,6 +80,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Recently started (SS2023)
 
+1. "*Bim2Twin*: From BIM to real time optimization with Azure digital twins", Robert Zacchia. [details](./active/Bim2Twin.md).
 1. "*jsStorage*: Interoperable data access in federated storage infrastuctures", Felix Heine and Maximilian Heine. [details](./active/jsStorage.md).
 1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter and Johannes Sinzinger. [details](./active/BaaSCycle.md).
 1. "*PySpeechLess*: Interoperable Python serverless functions in federated FaaS", Lukas Pernter and Simon Muscatello. [details](./active/PySpeechLess.md).
