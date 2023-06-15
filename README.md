@@ -80,6 +80,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Recently started (SS2023)
 
+1. "*jsStorage*: Interoperable data access in federated storage infrastuctures", Felix Heine and Maximilian Heine. [details](./active/jsStorage.md).
 1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter and Johannes Sinzinger. [details](./active/BaaSCycle.md).
 1. "*PySpeechLess*: Interoperable Python serverless functions in federated FaaS", Lukas Pernter and Simon Muscatello. [details](./active/PySpeechLess.md).
 1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./active/BuildGoalLess.md).
@@ -92,7 +93,6 @@ Details for active bachelor theses can be found [here](./active/README.md).
 1. "*GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text", David Meyer. [details](./active/GoSpeechLess.md).
 1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./active/profileCold.md).
 1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./active/pyRecognition.md).
-1. "*MatchFaaS*: Matching-based Scheduling of Serverless Workflows in Federated FaaS", Amza Andrei. [details](./active/MatchFaaS.md).
 
 
 
