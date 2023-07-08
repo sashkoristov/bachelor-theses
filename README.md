@@ -8,41 +8,42 @@ As a result of several bachelor and master theses that I supervised, we have dev
 *xAFCL EE* is the core part of the [AFCL Environment](https://github.com/sashkoristov/AFCLEnvironment), a platform to develop, deploy, and fault tolerant execution of FCs developed in our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)).
 -->
 
-The following paragraphs present the available bachelor theses for the following upcoming summer semester 2023. 
+The following paragraphs present the available bachelor theses for the following winter semester 2023/24. 
 
 You can find a latex template for the bachelor thesis which includes some hints [here](https://github.com/sashkoristov/bachelor-theses/tree/main/template).
 
-Topics are inintially intended for a single student, but each topic can be adapted for a group of two students.
+Each topic can be adapted for a single student or a group of two students.
 
 ---
 
-# New available topics for SS2023
+# New available topics for WS2023/24
 
 
 
 ## Topics
 
-The following topics for bachelor theses are available for the summer semester 2023:
+The following topics for bachelor theses are available for the winter semester 2023/24:
 
-
+1. *CacheLess*: Cache-aware data flow in AFCL serverless workflows [details](./new/CacheLess.md).
+1. *StorageLess*: Benchmark networking of federated FaaS with federated storage infrastructure [details](./new/StorageLess.md).
+1. *PackageLess*: Benchmarking packaging and deployment time of serverless functions in federated FaaS [details](./new/PackageLess.md).
 1. *StreamAFCL* : A novel serverless workflow management system for streaming AFCL workflows in federated FaaS [details](./new/StreamAFCL.md).
 1. *TwinLess* : Building a digital twin with serverless workflows in federated FaaS [details](./new/twinLess.md).
-1. *fServiceX* : Code once serverless functions and dynamically select BaaS services in federated FaaS [details](./new/fServiceX.md).
-1. *fOps*: Automation in packaging, deployment, and testing of serverless functions in federated FaaS [details](./new/fOps.md).
+1. *fServiceX* : Code once serverless functions and dynamically select BaaS services in federated FaaS [details](./new/fServiceX.md) (Always open for new services and providers).
 1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./new/profileBaaS.md).
 
 
 ## Timeline
 
-* Tentative application by students: March - May 2023
-* Tentative start with the thesis:  March 2023 - June 2023
-* Tentative finish WS2023/24
+* Tentative application by students: July - September 2023
+* Tentative start with the thesis:  September 2023 - October 2023
+* Tentative finish January 2024 - March 2024
 
 ## Tentative agenda
 
-We will define several milestones for the project and ideally bi-weekly meetings for project status. 
+We will define several milestones for the project and ideally bi-weekly meetings for project status.
 
- 
+
 
 ## General milestones for a successful bachelor thesis
 
