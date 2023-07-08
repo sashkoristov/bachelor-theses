@@ -92,7 +92,6 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Started in 2022
 
-1. "*GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text", David Meyer. [details](./active/GoSpeechLess.md).
 1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./active/profileCold.md).
 1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./active/pyRecognition.md).
 
