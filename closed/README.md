@@ -1,5 +1,11 @@
 # Closed bachelor theses
 
+## Closed in WS2023
+
+1. "*Foppa*: Asynchronous microservices-based runtime system for serverless functions in federated FaaS", Hendrick Munske [details](./Foppa.md).
+1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./pyRecognition.md).
+
+
 ## Closed in SS2023
 
 1. "*GoSpeechLess*: An interoperable library for serverless functions in Go to convert speech and text", David Meyer. [details](./GoSpeechLess.md).

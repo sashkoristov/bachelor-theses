@@ -87,14 +87,12 @@ Details for active bachelor theses can be found [here](./active/README.md).
 1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter and Johannes Sinzinger. [details](./active/BaaSCycle.md).
 1. "*PySpeechLess*: Interoperable Python serverless functions in federated FaaS", Lukas Pernter and Simon Muscatello. [details](./active/PySpeechLess.md).
 1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./active/BuildGoalLess.md).
-1. "*Foppa*: Asynchronous microservices-based runtime system for serverless functions in federated FaaS", Hendrick Munske [details](./active/Foppa.md).
 1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./active/pyTranslate.md).
 
 
 ## Started in 2022
 
 1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./active/profileCold.md).
-1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./active/pyRecognition.md).
 
 
 

@@ -8,14 +8,12 @@
 1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter and Johannes Sinzinger. [details](./BaaSCycle.md).
 1. "*PySpeechLess*: Interoperable Python serverless functions in federated FaaS", Lukas Pernter and Simon Muscatello. [details](./PySpeechLess.md).
 1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./pyTranslate.md).
-1. "*Foppa*: Asynchronous microservices-based runtime system for serverless functions in federated FaaS", Hendrick Munske [details](./Foppa.md).
 1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./BuildGoalLess.md).
 
 
 ## Started in WS2022
 
 1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./profileCold.md).
-1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./pyRecognition.md).
 
 <!--
 ## Started in SS2022

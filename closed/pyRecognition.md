@@ -3,7 +3,6 @@
 | Title | ***pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS** |
 | - | - | 
 | Students | Lea Plangger | 
-| Status | Requirements analysis | 
 | Description | Development of serverless functions that use multiple cloud services is a complex task as it may require huge development effort to integrate various libraries for each cloud service that the function uses. This bachelor thesis extends *fService* to support programming language Python and the cloud service for object recognition (e.g., AWS Rekognition and Google Vision) of multiple cloud providers (e.g., AWS, Google, etc). Heuristics may be added to determine which specific cloud service to be used (e.g., AWS Rekognition or Google Vision) based on the storage location of the images.|
 |Tasks| 1. Define interfaces and methods for the selected cloud storages.<br> 2. Develop implementations of interfaces for various cloud providers (e.g., AWS, Google, etc) and their abstracted services in Go. <br> 3. Build portable function choreography (*FC*) for a real-life application with dynamic inputs of serverless functions to specify the specific cloud service that they use (e.g. location of the input images).<br> 4. Integrate PyStorage for interoperable access to storages of AWS and Google.<br> 5. Model the service performance based on image size and number of faces inside the image<br> 6. Evaluate the system with the developed FC and optimal selection of the proper cloud service.|
 | Theoretical skills | Cloud Computing, Serverless. | 
