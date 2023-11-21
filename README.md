@@ -16,13 +16,13 @@ Each topic can be adapted for a single student or a group of two students.
 
 ---
 
-# New available topics for WS2023/24
+# New available topics for 2023/24
 
 
 
 ## Topics
 
-The following topics for bachelor theses are available for the winter semester 2023/24:
+The following topics for bachelor theses are available for 2023/24:
 
 1. *CacheLess*: Cache-aware data flow in AFCL serverless workflows [details](./new/CacheLess.md).
 1. *StorageLess*: Benchmark networking of federated FaaS with federated storage infrastructure [details](./new/StorageLess.md).
@@ -35,9 +35,9 @@ The following topics for bachelor theses are available for the winter semester 2
 
 ## Timeline
 
-* Tentative application by students: July - September 2023
-* Tentative start with the thesis:  September 2023 - October 2023
-* Tentative finish January 2024 - March 2024
+* Tentative application by students: December 2023 - January 2024
+* Tentative start with the thesis:  January - February 2024
+* Tentative finish June 2024 - October 2024
 
 ## Tentative agenda
 
@@ -57,29 +57,16 @@ We will define several milestones for the project and ideally bi-weekly meetings
 - `Farewell party` :blush:
 
 
-
-<!--
-## *AFCLOps*
-
-| Title | ***AFCLOps*: A pipeline for deployment of AFCL serverless workflows across multiple providers** |
-| ----- | ----- | 
-| Students | one |
-| Description | The goal of this bachelor thesis is to develop a pipeline for deployment of serverless functions (*function deployments* - *FDs*) of a given AFCL serverless workflow or *function choreography* (*FC*) defined in AFCL. The main approach is to automatize deployment of all FDs of an FC that are not deployed from existing function implementations (*FIs*) when the AFCL file is pushed on git or before running it. The FC developer pushes an AFCL file to github and *AFCLOps* parses it to determine each base function and gets specification from MariaDB database. Based on that, *AFCLOps* deploys all specified functions. AFCLOps checks in the AFCL metadata DB the locations of deployment packages (e.g., codes on gitFaaSDeploy repository). To speed up the process, *AFCLOps* will create an FC that will run deployers (serverless functions) in parallel. In case of a failed deployment, another FD of the same implementation or an FD of on another FI of the same *function type* (*FT*) based on some objectives that will be defined during the thesis. At the same time, the AFCL file will be updated. *AFCLOps* will be evaluated with a real life workflow for various FaaS providers.
-|Tasks| 1. Develop a module for pipeline scripts. <br> 2. Develop a module to adapt the FC for parallel execution of deployers. <br> 3. Develop interfaces with AFCL metadata DB. <br> 4. Develop an automatic deployer for various FaaS providers (e.g. AWS, IBM, Google, etc).<br> 5. Evaluate *fOps* with real life FCs applications.|
-| Theoretical skills | Cloud Computing, Serverless, AFCL, fault tolerance. | 
-| Practical skills | Cloud APIs, git.|
-| Related work | 1. SAAF https://github.com/wlloyduw/SAAF. This tools can be used for wrappers and deployment scripts for various programming languages and FaaS providers.<br> 2. ([xAFCL EE](https://github.com/sashkoristov/enactmentengine)) S. Ristov, S. Pedratscher, T. Fahringer, “xAFCL: Run scalable function choreographies across multiple FaaS systems,” in *IEEE Transactions on Services Computing*, pp. 1–1, 2021. ([doi](https://doi.org/10.1109/TSC.2021.3128137))<br> 3. S. Ristov, S. Pedratscher, T. Fahringer, "AFCL: An Abstract Function Choreography Language for serverless workflow specification", in *Elsevier Future Generation Computer Systems*, vol. 114, pp. 368-382, 2021. ([doi](https://doi.org/10.1016/j.future.2020.08.012))|
----
--->
-
-
-
-
 # Active bachelor theses
 
 Details for active bachelor theses can be found [here](./active/README.md).
 
-## Recently started (SS2023)
+## Recently started (WS2023)
+
+1. "Digitization in manufacturing plants", Sonja Dagn, [details](./active/digitizationProduction.md)
+
+
+## Started in SS2023
 
 1. "*OptFaaS*: ML-based benchmarking of serverless functions in federated FaaS", Arne Pawlowski, [details](./active/OptFaaS.md)
 1. "*Bim2Twin*: From BIM to real time optimization with Azure digital twins", Robert Zacchia. [details](./active/Bim2Twin.md).
@@ -87,14 +74,9 @@ Details for active bachelor theses can be found [here](./active/README.md).
 1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter and Johannes Sinzinger. [details](./active/BaaSCycle.md).
 1. "*PySpeechLess*: Interoperable Python serverless functions in federated FaaS", Lukas Pernter and Simon Muscatello. [details](./active/PySpeechLess.md).
 1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./active/BuildGoalLess.md).
+<!--
 1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./active/pyTranslate.md).
-
-
-## Started in 2022
-
-1. "*profileCold*: Characterizing and modeling cold start overhead in federated FaaS", Maximilian Gallinat. [details](./active/profileCold.md).
-
-
+-->
 
 
 # Closed bachelor theses
