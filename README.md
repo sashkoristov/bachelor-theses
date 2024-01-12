@@ -61,10 +61,10 @@ We will define several milestones for the project and ideally bi-weekly meetings
 
 Details for active bachelor theses can be found [here](./active/README.md).
 
-## Recently started (WS2023)
+## Started in WS2023
 
+1. "compositeBaaS: An Ontology-Driven orchestration of BaaS-enabled AFCL serverless workflows", Rafael Mayer, [details](./active/compositeBaaS.md)
 1. "Digitization in manufacturing plants", Sonja Dagn, [details](./active/digitizationProduction.md)
-
 
 ## Started in SS2023
 
