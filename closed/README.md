@@ -2,6 +2,7 @@
 
 ## Closed in WS2023
 
+1. "*PySpeechLess*: Interoperable Python serverless functions in federated FaaS", Lukas Pernter and Simon Muscatello. [details](./PySpeechLess.md).
 1. "*Foppa*: Asynchronous microservices-based runtime system for serverless functions in federated FaaS", Hendrick Munske [details](./Foppa.md).
 1. "*pyRecognition*: An interoperable programming and execution model for object recognition in Federated FaaS, Lea Plangger. [details](./pyRecognition.md).
 
