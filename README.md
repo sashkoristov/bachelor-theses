@@ -63,6 +63,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Started in WS2023
 
+1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./active/jInvoke.md)
 1. "compositeBaaS: An Ontology-Driven orchestration of BaaS-enabled AFCL serverless workflows", Rafael Mayer, [details](./active/compositeBaaS.md)
 1. "Digitization in manufacturing plants", Sonja Dagn, [details](./active/digitizationProduction.md)
 
