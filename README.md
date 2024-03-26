@@ -61,6 +61,10 @@ We will define several milestones for the project and ideally bi-weekly meetings
 
 Details for active bachelor theses can be found [here](./active/README.md).
 
+## Started in SS2024
+1. "pyTextAnalysis: Interoperable python library for text analysis in federated FaaS", Thomas Krabichler, [details](./active/pyTextAnalysis.md)
+
+
 ## Started in WS2023
 
 1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./active/jInvoke.md)
@@ -69,7 +73,6 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Started in SS2023
 
-1. "*OptFaaS*: ML-based benchmarking of serverless functions in federated FaaS", Arne Pawlowski, [details](./active/OptFaaS.md)
 1. "*Bim2Twin*: From BIM to real time optimization with Azure digital twins", Robert Zacchia. [details](./active/Bim2Twin.md).
 1. "*jsStorage*: Interoperable data access in federated storage infrastuctures", Felix Heine and Maximilian Heine. [details](./active/jsStorage.md).
 1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter. [details](./active/BaaSCycle.md).

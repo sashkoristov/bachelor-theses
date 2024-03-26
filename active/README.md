@@ -1,15 +1,19 @@
 # Active bachelor theses
 
+## Started in SS2024
+1. "pyTextAnalysis: Interoperable python library for text analysis in federated FaaS", Thomas Krabichler, [details](./pyTextAnalysis.md)
+
 
 ## Started in WS2023
+1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./active/jInvoke.md)
+1. "compositeBaaS: An Ontology-Driven orchestration of BaaS-enabled AFCL serverless workflows", Rafael Mayer, [details](./active/compositeBaaS.md)
 1. "Digitization in manufacturing plants", Sonja Dagn, [details](./digitizationProduction.md)
 
 ## Started in SS2023
 
-1. "*OptFaaS*: ML-based benchmarking of serverless functions in federated FaaS", Arne Pawlowski, [details](./OptFaaS.md)
 1. "*Bim2Twin*: From BIM to real time optimization with Azure digital twins", Robert Zacchia. [details](./Bim2Twin.md).
 1. "*jsStorage*: Interoperable data access in federated storage infrastuctures", Felix Heine and Maximilian Heine. [details](./jsStorage.md).
-1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter and Johannes Sinzinger. [details](./BaaSCycle.md).
+1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter. [details](./BaaSCycle.md).
 1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./BuildGoalLess.md).
 <!--
 1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./pyTranslate.md).

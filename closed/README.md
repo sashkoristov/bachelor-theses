@@ -1,5 +1,9 @@
 # Closed bachelor theses
 
+## Closed in SS2024
+1. "*OptFaaS*: ML-based benchmarking of serverless functions in federated FaaS", Arne Pawlowski, [details](./OptFaaS.md)
+
+
 ## Closed in WS2023
 
 1. "*PySpeechLess*: Interoperable Python serverless functions in federated FaaS", Lukas Pernter and Simon Muscatello. [details](./PySpeechLess.md).
