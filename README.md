@@ -62,12 +62,13 @@ We will define several milestones for the project and ideally bi-weekly meetings
 Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Started in SS2024
+1. *BuildTwin4Cloud*: Building a cost-efficient digital twin on federated clouds, Deniz Öykaza, [details](./active/BuildTwin4Cloud.md)
 1. "pyTextAnalysis: Interoperable python library for text analysis in federated FaaS", Thomas Krabichler, [details](./active/pyTextAnalysis.md)
+1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./active/jInvoke.md)
 
 
 ## Started in WS2023
 
-1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./active/jInvoke.md)
 1. "compositeBaaS: An Ontology-Driven orchestration of BaaS-enabled AFCL serverless workflows", Rafael Mayer, [details](./active/compositeBaaS.md)
 1. "Digitization in manufacturing plants", Sonja Dagn, [details](./active/digitizationProduction.md)
 
