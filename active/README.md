@@ -1,7 +1,7 @@
 # Active bachelor theses
 
 ## Started in SS2024
-1. *BuildTwin4Cloud*: Building a cost-efficient digital twin on federated clouds, Deniz Öykaza, [details](./BuildTwin4Cloud.md)
+1. *BuildTwin4Cloud*: Building a cost-efficient digital twin on federated clouds, Deniz Özkaya, [details](./BuildTwin4Cloud.md)
 1. "pyTextAnalysis: Interoperable python library for text analysis in federated FaaS", Thomas Krabichler, [details](./pyTextAnalysis.md)
 1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./active/jInvoke.md)
 
