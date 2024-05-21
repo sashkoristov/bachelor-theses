@@ -13,10 +13,8 @@
 
 ## Started in SS2023
 
-1. "*Bim2Twin*: From BIM to real time optimization with Azure digital twins", Robert Zacchia. [details](./Bim2Twin.md).
 1. "*jsStorage*: Interoperable data access in federated storage infrastuctures", Felix Heine and Maximilian Heine. [details](./jsStorage.md).
 1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter. [details](./BaaSCycle.md).
-1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./BuildGoalLess.md).
 <!--
 1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./pyTranslate.md).
 -->
