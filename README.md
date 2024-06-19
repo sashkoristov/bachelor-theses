@@ -8,7 +8,7 @@ As a result of several bachelor and master theses that I supervised, we have dev
 *xAFCL EE* is the core part of the [AFCL Environment](https://github.com/sashkoristov/AFCLEnvironment), a platform to develop, deploy, and fault tolerant execution of FCs developed in our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)).
 -->
 
-The following paragraphs present the available bachelor theses for the following winter semester 2023/24. 
+The following paragraphs present the available bachelor theses for the current summer semester 20s24. 
 
 You can find a latex template for the bachelor thesis which includes some hints [here](https://github.com/sashkoristov/bachelor-theses/tree/main/template).
 
@@ -73,15 +73,6 @@ Details for active bachelor theses can be found [here](./active/README.md).
 1. "compositeBaaS: An Ontology-Driven orchestration of BaaS-enabled AFCL serverless workflows", Rafael Mayer, [details](./active/compositeBaaS.md)
 1. "Digitization in manufacturing plants", Sonja Dagn, [details](./active/digitizationProduction.md)
 
-## Started in SS2023
-
-1. "*Bim2Twin*: From BIM to real time optimization with Azure digital twins", Robert Zacchia. [details](./active/Bim2Twin.md).
-1. "*jsStorage*: Interoperable data access in federated storage infrastuctures", Felix Heine and Maximilian Heine. [details](./active/jsStorage.md).
-1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter. [details](./active/BaaSCycle.md).
-1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./active/BuildGoalLess.md).
-<!--
-1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./active/pyTranslate.md).
--->
 
 
 # Closed bachelor theses

@@ -1,6 +1,8 @@
 # Closed bachelor theses
 
 ## Closed in SS2024
+1. "*jsStorage*: Interoperable data access in federated storage infrastuctures", Felix Heine and Maximilian Heine. [details](./jsStorage.md).
+1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter. [details](./BaaSCycle.md).
 1. "*ModelLess*: Automating Digital Twins Creation for Large Scale Buildings in Federated Clouds", Robert Zacchia. [details](./ModelLess.md).
 1. "Serverless goal-driven building automation", Anna Meshcheriakova, [details](./BuildGoalLess.md).
 1. "*OptFaaS*: ML-based benchmarking of serverless functions in federated FaaS", Arne Pawlowski, [details](./OptFaaS.md)
