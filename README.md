@@ -22,22 +22,18 @@ Each topic can be adapted for a single student or a group of two students.
 
 ## Topics
 
-The following topics for bachelor theses are available for 2023/24:
+New topics will be published soon related to the project MATISSE - Model-based engineering of Digital Twins for early verification and validation of Industrial Systems (Sep. 2024 - Aug. 2027). 
 
-1. *CacheLess*: Cache-aware data flow in AFCL serverless workflows [details](./new/CacheLess.md).
-1. *StorageLess*: Benchmark networking of federated FaaS with federated storage infrastructure [details](./new/StorageLess.md).
-1. *PackageLess*: Benchmarking packaging and deployment time of serverless functions in federated FaaS [details](./new/PackageLess.md).
-1. *StreamAFCL* : A novel serverless workflow management system for streaming AFCL workflows in federated FaaS [details](./new/StreamAFCL.md).
-1. *TwinLess* : Building a digital twin with serverless workflows in federated FaaS [details](./new/twinLess.md).
-1. *fServiceX* : Code once serverless functions and dynamically select BaaS services in federated FaaS [details](./new/fServiceX.md) (Always open for new services and providers).
-
+In the meantime, you can contact me for topics in large-scale systems, serverless computing, optimization, simulation, federation, etc.
 
 
 ## Timeline
 
-* Tentative application by students: December 2023 - January 2024
-* Tentative start with the thesis:  January - February 2024
-* Tentative finish June 2024 - October 2024
+Students can apply anytime, but the following tentative timeline is preferred
+
+* Tentative application by students: October - November 2024
+* Tentative start with the thesis:  November 2024 
+* Tentative finish March - June 2025
 
 ## Tentative agenda
 
