@@ -8,7 +8,7 @@ As a result of several bachelor and master theses that I supervised, we have dev
 *xAFCL EE* is the core part of the [AFCL Environment](https://github.com/sashkoristov/AFCLEnvironment), a platform to develop, deploy, and fault tolerant execution of FCs developed in our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)).
 -->
 
-The following paragraphs present the available bachelor theses for the current summer semester 20s24. 
+The following paragraphs present the available bachelor theses for the current winter semester WS24/25. 
 
 You can find a latex template for the bachelor thesis which includes some hints [here](https://github.com/sashkoristov/bachelor-theses/tree/main/template).
 
@@ -16,7 +16,7 @@ Each topic can be adapted for a single student or a group of two students.
 
 ---
 
-# New available topics for 2023/24
+# New available topics for 2024/25
 
 
 
@@ -30,7 +30,7 @@ The following topics for bachelor theses are available for 2023/24:
 1. *StreamAFCL* : A novel serverless workflow management system for streaming AFCL workflows in federated FaaS [details](./new/StreamAFCL.md).
 1. *TwinLess* : Building a digital twin with serverless workflows in federated FaaS [details](./new/twinLess.md).
 1. *fServiceX* : Code once serverless functions and dynamically select BaaS services in federated FaaS [details](./new/fServiceX.md) (Always open for new services and providers).
-1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./new/profileBaaS.md).
+
 
 
 ## Timeline
@@ -61,8 +61,12 @@ We will define several milestones for the project and ideally bi-weekly meetings
 
 Details for active bachelor theses can be found [here](./active/README.md).
 
+## Started in WS2024
+
+1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./active/profileBaaS.md).
+
+
 ## Started in SS2024
-1. "Interoperable sentiment analysis in federated clouds", Peter Silbernagl, [details](./active/jSentiment.md)
 1. "*BuildTwin4Cloud*: Building a cost-efficient digital twin on federated clouds", Deniz Özkaya, [details](./active/BuildTwin4Cloud.md)
 1. "pyTextAnalysis: Interoperable python library for text analysis in federated FaaS", Thomas Krabichler, [details](./active/pyTextAnalysis.md)
 1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./active/jInvoke.md)

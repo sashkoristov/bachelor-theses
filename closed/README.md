@@ -1,5 +1,10 @@
 # Closed bachelor theses
 
+## Closed in WS2024
+
+1. "Interoperable sentiment analysis in federated clouds", Peter Silbernagl, [details](./jSentiment.md)
+
+
 ## Closed in SS2024
 1. "*jsStorage*: Interoperable data access in federated storage infrastuctures", Felix Heine and Maximilian Heine. [details](./jsStorage.md).
 1. "*BaaSCycle*: Semi-automatic coding and white box benchmarking of java serverless functions", Johann Hofstädter. [details](./BaaSCycle.md).
