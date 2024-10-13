@@ -59,6 +59,7 @@ Details for active bachelor theses can be found [here](./active/README.md).
 
 ## Started in WS2024
 
+1. Developing a low-cost test environment for performance analysis of GNSS devices [details](./active/GNNS.md).
 1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./active/profileBaaS.md).
 
 

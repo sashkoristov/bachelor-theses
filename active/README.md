@@ -2,6 +2,7 @@
 
 ## Started in WS2024
 
+1. Developing a low-cost test environment for performance analysis of GNSS devices [details](./GNNS.md).
 1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./profileBaaS.md).
 
 ## Started in SS2024
