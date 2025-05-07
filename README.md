@@ -8,7 +8,7 @@ As a result of several bachelor and master theses that I supervised, we have dev
 *xAFCL EE* is the core part of the [AFCL Environment](https://github.com/sashkoristov/AFCLEnvironment), a platform to develop, deploy, and fault tolerant execution of FCs developed in our Abstract Function Choreography Language ([AFCL](https://doi.org/10.1016/j.future.2020.08.012)).
 -->
 
-The following paragraphs present the available bachelor theses for the current winter semester WS24/25. 
+The following paragraphs present the available bachelor theses for the current summer semester 2025. 
 
 You can find a latex template for the bachelor thesis which includes some hints [here](https://github.com/sashkoristov/bachelor-theses/tree/main/template).
 
@@ -53,8 +53,8 @@ We will define several milestones for the project and ideally bi-weekly meetings
 
 # Active bachelor theses
 
-1. "Developing function-driven, graph-based distributed algorithms for scalable serverless computing", Hannes Stecher [details](./GraphLess.md).
-1. "Developing a Cloud-Based Multi-Provider Digital Twin: Addressing Deployment, Layered Architecture and Cross-Cloud Integration Challenges", Klaus Kaserer [details](./CLDT.md).
+1. "Developing function-driven, graph-based distributed algorithms for scalable serverless computing", Hannes Stecher [details](./active/GraphLess.md).
+1. "Developing a Cloud-Based Multi-Provider Digital Twin: Addressing Deployment, Layered Architecture and Cross-Cloud Integration Challenges", Klaus Kaserer [details](./active/CLDT.md).
 
 Details for active bachelor theses can be found [here](./active/README.md).
 
