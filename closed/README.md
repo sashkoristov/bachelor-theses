@@ -1,7 +1,17 @@
 # Closed bachelor theses
 
+## Closed in SS2025
+1. "*BuildTwin4Cloud*: Building a cost-efficient digital twin on federated clouds", Deniz Özkaya, [details](./active/BuildTwin4Cloud.md)
+1. "pyTextAnalysis: Interoperable python library for text analysis in federated FaaS", Thomas Krabichler, [details](./active/pyTextAnalysis.md)
+
+
 ## Closed in WS2024
 
+1. Developing a low-cost test environment for performance analysis of GNSS devices [details](./GNNS.md).
+1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./profileBaaS.md).
+1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./jInvoke.md)
+1. "compositeBaaS: An Ontology-Driven orchestration of BaaS-enabled AFCL serverless workflows", Rafael Mayer, [details](./compositeBaaS.md)
+1. "Digitization in manufacturing plants", Sonja Dagn, [details](./digitizationProduction.md)
 1. "Interoperable sentiment analysis in federated clouds", Peter Silbernagl, [details](./jSentiment.md)
 
 

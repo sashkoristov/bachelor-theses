@@ -1,9 +1,15 @@
 # Active bachelor theses
 
+## Started in SS2025
+
+1. "Developing a Cloud-Based Multi-Provider Digital Twin: Addressing Deployment, Layered Architecture and Cross-Cloud Integration Challenges", Klaus Kaserer [details](./CLDT.md).
+1. "Developing function-driven, graph-based distributed algorithms for scalable serverless computing", Hannes Stecher [details](./GraphLess.md).
+
+<!--
 ## Started in WS2024
 
-1. Developing a low-cost test environment for performance analysis of GNSS devices [details](./GNNS.md).
-1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./profileBaaS.md).
+1. Developing a low-cost test environment for performance analysis of GNSS devices, Daniel Belfiore [details](./GNNS.md).
+1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS, Marco Cotrotzo, [details](./profileBaaS.md).
 
 ## Started in SS2024
 1. "*BuildTwin4Cloud*: Building a cost-efficient digital twin on federated clouds", Deniz Özkaya, [details](./BuildTwin4Cloud.md)
@@ -15,7 +21,6 @@
 1. "compositeBaaS: An Ontology-Driven orchestration of BaaS-enabled AFCL serverless workflows", Rafael Mayer, [details](./active/compositeBaaS.md)
 1. "Digitization in manufacturing plants", Sonja Dagn, [details](./digitizationProduction.md)
 
-<!--
 1. "*pyTranslate*: A Python Library for serverless workflows with interoperable OCR and translation cloud services", Elias Gendu. [details](./pyTranslate.md).
 -->
 

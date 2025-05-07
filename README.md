@@ -16,13 +16,15 @@ Each topic can be adapted for a single student or a group of two students.
 
 ---
 
-# New available topics for 2024/25
+# New available topics for 2025/26
 
 
 
 ## Topics
 
-New topics will be published soon related to the project MATISSE - Model-based engineering of Digital Twins for early verification and validation of Industrial Systems (Sep. 2024 - Aug. 2027). 
+New topics will be published soon related to the projects:
+- MATISSE - Model-based engineering of Digital Twins for early verification and validation of Industrial Systems (Sep. 2024 - Aug. 2027). 
+- mAIEnergy - Generative AI-based co-pilot supporting citizen in energy transition by leveraging the benefits of HPC (Jan. 2025 - October. 2025) - to be extended.
 
 In the meantime, you can contact me for topics in large-scale systems, serverless computing, optimization, simulation, federation, etc.
 
@@ -31,15 +33,13 @@ In the meantime, you can contact me for topics in large-scale systems, serverles
 
 Students can apply anytime, but the following tentative timeline is preferred
 
-* Tentative application by students: October - November 2024
-* Tentative start with the thesis:  November 2024 
-* Tentative finish March - June 2025
+* Tentative application by students: May - September 2025
+* Tentative start with the thesis: June - October 2025
+* Tentative finish January - February 2026
 
 ## Tentative agenda
 
 We will define several milestones for the project and ideally bi-weekly meetings for project status.
-
-
 
 ## General milestones for a successful bachelor thesis
 
@@ -50,29 +50,13 @@ We will define several milestones for the project and ideally bi-weekly meetings
 - Evaluation
 - Finalizing the bachelor thesis
 - Final presentation
-- `Farewell party` :blush:
-
 
 # Active bachelor theses
 
+1. "Developing function-driven, graph-based distributed algorithms for scalable serverless computing", Hannes Stecher [details](./GraphLess.md).
+1. "Developing a Cloud-Based Multi-Provider Digital Twin: Addressing Deployment, Layered Architecture and Cross-Cloud Integration Challenges", Klaus Kaserer [details](./CLDT.md).
+
 Details for active bachelor theses can be found [here](./active/README.md).
-
-## Started in WS2024
-
-1. Developing a low-cost test environment for performance analysis of GNSS devices [details](./active/GNNS.md).
-1. *ProfileBaaS*: Characterizing and profiling Backend-as-a-Service in Federated FaaS [details](./active/profileBaaS.md).
-
-
-## Started in SS2024
-1. "*BuildTwin4Cloud*: Building a cost-efficient digital twin on federated clouds", Deniz Özkaya, [details](./active/BuildTwin4Cloud.md)
-1. "pyTextAnalysis: Interoperable python library for text analysis in federated FaaS", Thomas Krabichler, [details](./active/pyTextAnalysis.md)
-1. "jInvoke: A Microservice-based Invoker for Serverless Tasks in Federated Clouds", Thomas Mittermair, [details](./active/jInvoke.md)
-
-
-## Started in WS2023
-
-1. "compositeBaaS: An Ontology-Driven orchestration of BaaS-enabled AFCL serverless workflows", Rafael Mayer, [details](./active/compositeBaaS.md)
-1. "Digitization in manufacturing plants", Sonja Dagn, [details](./active/digitizationProduction.md)
 
 
 
